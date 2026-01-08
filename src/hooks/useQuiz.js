@@ -4,6 +4,30 @@ import questionsData from '../data/questions.json';
 const QUESTIONS_PER_QUIZ = 30;
 const QUIZ_DURATION_SEC = 30 * 60; // 30 minutes
 
+// Fisher-Yates shuffle for proper randomization
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
+// Get random unique questions, checking by question text to avoid duplicates
+const getRandomUnique = (list, count, usedQuestions) => {
+  const shuffled = shuffleArray(list);
+  const result = [];
+  for (const q of shuffled) {
+    if (result.length >= count) break;
+    if (!usedQuestions.has(q.question)) {
+      result.push(q);
+      usedQuestions.add(q.question);
+    }
+  }
+  return result;
+};
+
 export function useQuiz() {
   const [status, setStatus] = useState('start'); // start, quiz, result
   const [questions, setQuestions] = useState([]);
@@ -16,6 +40,7 @@ export function useQuiz() {
   const startQuiz = useCallback((targetCount = 30) => {
     const allQuestions = questionsData.questions;
     setTimeRemaining(targetCount * 60); // 1 minute per question rule
+    
     // Balanced Random Selection
     const byTopic = {
       "web": [],
@@ -33,32 +58,30 @@ export function useQuiz() {
       else byTopic.ai.push(q);
     });
 
-    const getRandom = (list, count) => {
-      const shuffled = [...list].sort(() => 0.5 - Math.random());
-      return shuffled.slice(0, count);
-    };
-
     // Target ratios: Web 26%, DB 26%, Security 23%, AI 25% (Total 100%)
     const targetWeb = Math.round(targetCount * 0.26);
     const targetDatabase = Math.round(targetCount * 0.26);
     const targetSecurity = Math.round(targetCount * 0.23);
     const targetAI = targetCount - (targetWeb + targetDatabase + targetSecurity); // Remainder
 
+    // Track used questions to guarantee uniqueness
+    const usedQuestions = new Set();
+    
     const selected = [
-      ...getRandom(byTopic.web, targetWeb),
-      ...getRandom(byTopic.database, targetDatabase),
-      ...getRandom(byTopic.security, targetSecurity),
-      ...getRandom(byTopic.ai, targetAI)
+      ...getRandomUnique(byTopic.web, targetWeb, usedQuestions),
+      ...getRandomUnique(byTopic.database, targetDatabase, usedQuestions),
+      ...getRandomUnique(byTopic.security, targetSecurity, usedQuestions),
+      ...getRandomUnique(byTopic.ai, targetAI, usedQuestions)
     ];
 
-    // Shuffle the final mix
-    const finalQuestions = selected.sort(() => 0.5 - Math.random());
+    // Shuffle the final mix with Fisher-Yates
+    const finalQuestions = shuffleArray(selected);
     
     setQuestions(finalQuestions);
     setCurrentIndex(0);
     setAnswers({});
     setFlagged(new Set());
-    setTimeRemaining(QUIZ_DURATION_SEC);
+    // timeRemaining already set above based on targetCount
     setStatus('quiz');
   }, []);
 
