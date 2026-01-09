@@ -3708,8 +3708,13 @@
       "id": "00f7e3b8-cc34-4bcd-bc4b-82811ad19a4b",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Screening Aeroportuale\nUn sistema di sicurezza analizza 200 valigie.\nPositivi Reali (Valigie pericolose): 20\nNegativi Reali (Valigie sicure): 180\nIl sistema classifica correttamente 15 valigie pericolose (TP=15) ma ne lascia passare 5 (FN=5).\nClassifica correttamente 160 valigie sicure (TN=160) ma ne ferma erroneamente 20 (FP=20).\nCalcola la Sensitivity (Recall).\nSuggerimento: Concentrati solo sulla capacità di trovare i positivi.\nA.\n15\n/\n180\n=\n8.3\n%\n15/180=8.3%\nB.\n15\n/\n20\n=\n75\n%\n15/20=75%\nC.\n160\n/\n180\n=\n88.8\n%\n160/180=88.8%\nD.\n(\n15\n+\n160\n)\n/\n200\n=\n87.5\n%\n(15+160)/200=87.5%",
-      "options": [],
+      "question": "Scenario: Screening Aeroportuale\nUn sistema di sicurezza analizza 200 valigie.\nPositivi Reali (Valigie pericolose): 20\nNegativi Reali (Valigie sicure): 180\nIl sistema classifica correttamente 15 valigie pericolose (TP=15) ma ne lascia passare 5 (FN=5).\nClassifica correttamente 160 valigie sicure (TN=160) ma ne ferma erroneamente 20 (FP=20).\nCalcola la Sensitivity (Recall).",
+      "options": [
+        "15/180 = 8.3%",
+        "15/20 = 75%",
+        "160/180 = 88.8%",
+        "(15+160)/200 = 87.5%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 1,
       "explanation": "1. Risposta: B (75%)\nFormula:\nT\nP\n/\n(\nT\nP\n+\nF\nN\n)\nTP/(TP+FN)\nCalcolo: Hai trovato 15 valigie pericolose su un totale di 20 valigie pericolose esistenti.\n15\n/\n20\n=\n0.75\n15/20=0.75\n."
@@ -3718,8 +3723,13 @@
       "id": "c953bebd-b655-419f-9519-3e882cfcc256",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Test Medico\nUn test diagnostico viene somministrato a 100 pazienti.\nVeri Positivi (TP): 10\nFalsi Positivi (FP): 40\nVeri Negativi (TN): 40\nFalsi Negativi (FN): 10\nCalcola la Precision (Precisione).\nSuggerimento: Di tutti quelli che il test ha dichiarato \"malati\", quanti lo sono davvero?\nA.\n10\n/\n(\n10\n+\n40\n)\n=\n20\n%\n10/(10+40)=20%\nB.\n10\n/\n(\n10\n+\n10\n)\n=\n50\n%\n10/(10+10)=50%\nC.\n40\n/\n(\n40\n+\n40\n)\n=\n50\n%\n40/(40+40)=50%\nD.\n(\n10\n+\n40\n)\n/\n100\n=\n50\n%\n(10+40)/100=50%",
-      "options": [],
+      "question": "Scenario: Test Medico\nUn test diagnostico viene somministrato a 100 pazienti.\nVeri Positivi (TP): 10\nFalsi Positivi (FP): 40\nVeri Negativi (TN): 40\nFalsi Negativi (FN): 10\nCalcola la Precision (Precisione).",
+      "options": [
+        "10/(10+40) = 20%",
+        "10/(10+10) = 50%",
+        "40/(40+40) = 50%",
+        "(10+40)/100 = 50%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 0,
       "explanation": "2. Risposta: A (20%)\nFormula:\nT\nP\n/\n(\nT\nP\n+\nF\nP\n)\nTP/(TP+FP)\nCalcolo: Il test ha detto \"Malato\" 50 volte (10 veri + 40 falsi allarmi). Solo 10 erano veri.\n10\n/\n50\n=\n0.20\n10/50=0.20\n. Una precisione molto bassa."
@@ -3728,8 +3738,13 @@
       "id": "aa7f7400-ed8f-4089-9c2f-b7f7d704b363",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Rilevamento Frodi Bancarie\nUn algoritmo analizza 1.000 transazioni.\nLe transazioni fraudolente sono pochissime: solo 50.\nL'algoritmo non ne individua nessuna (dice che sono tutte lecite).\nTP = 0\nFN = 50\nTN = 950 (Tutte le lecite riconosciute come lecite)\nFP = 0\nCalcola l'Accuracy (Accuratezza).\nSuggerimento: Quante decisioni corrette ha preso in totale rispetto al totale dei dati?\nA.\n0\n%\n0%\nB.\n50\n%\n50%\nC.\n950\n/\n1000\n=\n95\n%\n950/1000=95%\nD.\n50\n/\n1000\n=\n5\n%\n50/1000=5%",
-      "options": [],
+      "question": "Scenario: Rilevamento Frodi Bancarie\nUn algoritmo analizza 1.000 transazioni.\nLe transazioni fraudolente sono pochissime: solo 50.\nL'algoritmo non ne individua nessuna (dice che sono tutte lecite).\nTP = 0, FN = 50, TN = 950, FP = 0\nCalcola l'Accuracy (Accuratezza).",
+      "options": [
+        "0%",
+        "50%",
+        "950/1000 = 95%",
+        "50/1000 = 5%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 2,
       "explanation": "3. Risposta: C (95%)\nFormula:\n(\nT\nP\n+\nT\nN\n)\n/\nTotale\n(TP+TN)/Totale\nCalcolo:\n(\n0\n+\n950\n)\n/\n1000\n=\n0.95\n(0+950)/1000=0.95\n.\nNota: Questo esempio dimostra il \"Paradosso dell'Accuratezza\" (Slide 269/273): l'accuratezza è altissima, ma il sistema è inutile perché non ha trovato nessuna frode."
@@ -3738,8 +3753,13 @@
       "id": "e54d4306-4afb-4d90-b278-386633eccceb",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Filtro Antispam Aggressivo\nUn filtro email processa 500 messaggi.\nTN (Legittime riconosciute): 300\nFP (Legittime finite in spam): 100\n(Il numero di TP e FN non serve per questa domanda).\nCalcola la Specificity (Specificità).\nSuggerimento: Qual è la percentuale di messaggi negativi (legittimi) riconosciuti correttamente?\nA.\n300\n/\n400\n=\n75\n%\n300/400=75%\nB.\n100\n/\n400\n=\n25\n%\n100/400=25%\nC.\n300\n/\n500\n=\n60\n%\n300/500=60%\nD.\n100\n/\n300\n=\n33\n%\n100/300=33%",
-      "options": [],
+      "question": "Scenario: Filtro Antispam Aggressivo\nUn filtro email processa 500 messaggi.\nTN (Legittime riconosciute): 300\nFP (Legittime finite in spam): 100\nCalcola la Specificity (Specificità).",
+      "options": [
+        "300/400 = 75%",
+        "100/400 = 25%",
+        "300/500 = 60%",
+        "100/300 = 33%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 0,
       "explanation": "4. Risposta: A (75%)\nFormula:\nT\nN\n/\n(\nT\nN\n+\nF\nP\n)\nTN/(TN+FP)\nCalcolo: I negativi reali (messaggi legittimi) erano\n300\n+\n100\n=\n400\n300+100=400\n. Ne ha trovati 300.\n300\n/\n400\n=\n0.75\n300/400=0.75\n."
@@ -3748,8 +3768,13 @@
       "id": "6ac4c771-3081-4b74-ad56-1a063886c2de",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Riconoscimento Immagini (Gatti)\nUn modello analizza 50 foto. 25 sono gatti, 25 sono cani.\nIl modello indovina 20 gatti (TP=20) e ne perde 5 (FN=5).\nIl modello indovina 15 cani (TN=15) e scambia 10 cani per gatti (FP=10).\nCalcola il Tasso di Falsi Allarmi (False Alarm Rate o FPR).\nSuggerimento: FPR = 1 - Specificity. Oppure: Falsi Positivi / Totale Negativi Reali.\nA.\n10\n/\n25\n=\n40\n%\n10/25=40%\nB.\n15\n/\n25\n=\n60\n%\n15/25=60%\nC.\n10\n/\n30\n=\n33\n%\n10/30=33%\nD.\n5\n/\n25\n=\n20\n%\n5/25=20%",
-      "options": [],
+      "question": "Scenario: Riconoscimento Immagini (Gatti)\nUn modello analizza 50 foto. 25 sono gatti, 25 sono cani.\nIl modello indovina 20 gatti (TP=20) e ne perde 5 (FN=5).\nIl modello indovina 15 cani (TN=15) e scambia 10 cani per gatti (FP=10).\nCalcola il Tasso di Falsi Allarmi (False Alarm Rate o FPR).",
+      "options": [
+        "10/25 = 40%",
+        "15/25 = 60%",
+        "10/30 = 33%",
+        "5/25 = 20%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 0,
       "explanation": "5. Risposta: A (40%)\nFormula:\nF\nP\n/\n(\nT\nN\n+\nF\nP\n)\nFP/(TN+FP)\noppure\n1\n−\nSpecificity\n1−Specificity\n.\nCalcolo Specificity:\nT\nN\n/\n(\nT\nN\n+\nF\nP\n)\n=\n15\n/\n(\n15\n+\n10\n)\n=\n15\n/\n25\n=\n0.60\n(\n60\n%\n)\nTN/(TN+FP)=15/(15+10)=15/25=0.60(60%)\n.\nCalcolo FPR:\n1\n−\n0.60\n=\n0.40\n(\n40\n%\n)\n1−0.60=0.40(40%)\n.\nAlternativa: Falsi Positivi (10) diviso Totale Negativi (25) =\n10\n/\n25\n=\n0.4\n10/25=0.4\n."
@@ -3758,8 +3783,13 @@
       "id": "b73c3ed8-0de6-4507-8268-9d7907483fe4",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Calcolo F-Measure\nUn classificatore ha ottenuto i seguenti risultati:\nPrecision: 50% (0.5)\nRecall: 50% (0.5)\nQual è il valore di F1 (F-Measure bilanciata)?\nFormula:\n2\n⋅\nPrecision\n⋅\nRecall\nPrecision\n+\nRecall\n2⋅\nPrecision+Recall\nPrecision⋅Recall\n​\nA.\n0.25\n0.25\nB.\n0.5\n0.5\nC.\n1.0\n1.0\nD.\n0.75\n0.75",
-      "options": [],
+      "question": "Scenario: Calcolo F-Measure\nUn classificatore ha ottenuto:\nPrecision: 50% (0.5)\nRecall: 50% (0.5)\nQual è il valore di F1 (F-Measure bilanciata)?",
+      "options": [
+        "0.25",
+        "0.5",
+        "1.0",
+        "0.75"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 1,
       "explanation": "6. Risposta: B (0.5)\nFormula:\n2\n⋅\n(\n0.5\n⋅\n0.5\n)\n/\n(\n0.5\n+\n0.5\n)\n2⋅(0.5⋅0.5)/(0.5+0.5)\nCalcolo:\n2\n⋅\n(\n0.25\n)\n/\n1\n=\n0.5\n2⋅(0.25)/1=0.5\n.\nNota: Se Precision e Recall sono identiche, anche F1 sarà identico a loro."
@@ -3768,8 +3798,11 @@
       "id": "e210551a-2c67-42af-be87-f68f9b4a5e19",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Classificazione Multi-classe (Matrice 3x3)\nImmagina una matrice di confusione con 3 classi (A, B, C) e 100 istanze totali.\nSulla diagonale principale (corrette) abbiamo:\nClasse A corretti: 20\nClasse B corretti: 30\nClasse C corretti: 40\nErrori fuori diagonale: 10 sparsi.\nCalcola l'Accuracy Totale.\nA.\n20\n+\n30\n+\n40\n=\n90\n/\n100\n=\n90\n%\n20+30+40=90/100=90%\nB.\n10\n/\n100\n=\n10\n%\n10/100=10%\nC.\n40\n/\n100\n=\n40\n%\n40/100=40%",
+      "question": "Scenario: Classificazione Multi-classe (Matrice 3x3)\nMatrice di confusione con 3 classi (A, B, C) e 100 istanze totali.\nSulla diagonale principale: A=20, B=30, C=40 corretti.\nErrori fuori diagonale: 10 sparsi.\nCalcola l'Accuracy Totale.",
       "options": [
+        "(20+30+40)/100 = 90%",
+        "10/100 = 10%",
+        "40/100 = 40%",
         "Non si può calcolare"
       ],
       "slide_ref": "4) IA.pdf",
@@ -3780,8 +3813,13 @@
       "id": "e15a5b88-c581-42b3-9d6a-a76785cbabca",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Classificazione Multi-classe (Specie di Fiori)\nUn modello deve classificare 200 fiori in tre specie: Rosa, Tulipano, Girasole.\nRosa (Reali: 50): 40 classificate correttamente (TP), 5 come Tulipano (errore), 5 come Girasole (errore).\nTulipano (Reali: 80): 70 classificate correttamente (TP), 10 come Rosa (errore).\nGirasole (Reali: 70): 65 classificate correttamente (TP), 5 come Rosa (errore).\nCalcola l'Accuracy totale del modello.\nA.\n(\n40\n+\n70\n+\n65\n)\n/\n200\n=\n87.5\n%\n(40+70+65)/200=87.5%\nB.\n40\n/\n50\n=\n80\n%\n40/50=80%\nC.\n70\n/\n80\n=\n87.5\n%\n70/80=87.5%\nD.\n65\n/\n70\n=\n92.8\n%\n65/70=92.8%",
-      "options": [],
+      "question": "Scenario: Classificazione Multi-classe (Specie di Fiori)\nUn modello classifica 200 fiori in tre specie.\nRosa (50): 40 corretti, 5 errori Tulipano, 5 errori Girasole.\nTulipano (80): 70 corretti, 10 errori Rosa.\nGirasole (70): 65 corretti, 5 errori Rosa.\nCalcola l'Accuracy totale del modello.",
+      "options": [
+        "(40+70+65)/200 = 87.5%",
+        "40/50 = 80%",
+        "70/80 = 87.5%",
+        "65/70 = 92.8%"
+      ],
       "slide_ref": "4) IA.pdf",
       "correct": 0,
       "explanation": "Risposta corretta: A (87.5%) - Calcolo:"
@@ -3790,11 +3828,11 @@
       "id": "31613cc7-aa78-4286-8087-5ad5d3458b44",
       "topic": "ai",
       "type": "theory",
-      "question": "Scenario: Rilevamento Malware\nUn antivirus analizza 1.000 file. 100 sono malware (Positivi), 900 sono sicuri (Negativi).\nTP (Malware trovato): 90\nFP (File sicuro scambiato per malware): 10\nTN (File sicuro riconosciuto): 890\nFN (Malware non trovato): 10\nCalcola la Precision e la Recall (Sensitivity) e confrontale.",
+      "question": "Scenario: Rilevamento Malware\nUn antivirus analizza 1.000 file. 100 sono malware (Positivi), 900 sono sicuri (Negativi).\nTP=90, FP=10, TN=890, FN=10\nCalcola la Precision e la Recall e confrontale.",
       "options": [
         "Precision = 90%, Recall = 89% (Precision > Recall)",
         "Precision = 89%, Recall = 90% (Recall > Precision)",
-        "Precision =",
+        "Precision = 90%, Recall = 90% (Sono uguali)",
         "Precision = 99%, Recall = 90%"
       ],
       "slide_ref": "4) IA.pdf",
