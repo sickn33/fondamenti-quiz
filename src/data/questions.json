@@ -6,10 +6,10 @@
       "type": "theory",
       "question": "Chi è considerato l'inventore del World Wide Web nel 1989?",
       "options": [
-        "Bill Gates",
-        "Steve Jobs",
+        "Vinton Cerf",
+        "Robert Cailliau",
         "Tim Berners-Lee",
-        "Alan Turing"
+        "Marc Andreessen"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 2,
@@ -21,10 +21,10 @@
       "type": "theory",
       "question": "Qual è la funzione principale del CSS (Cascading Style Sheets)?",
       "options": [
-        "Definire il contenuto della pagina",
+        "Gestire l'autenticazione degli utenti",
         "Gestire la logica dinamica lato server",
         "Definire la presentazione e il layout del contenuto",
-        "Gestire il database"
+        "Eseguire calcoli matematici complessi"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 2,
@@ -36,13 +36,13 @@
       "type": "theory",
       "question": "Nell'architettura Client-Server, cosa si intende per \"Client\"?",
       "options": [
-        "Il computer che ospita il sito web",
         "Il programma che richiede un servizio (es. il browser)",
+        "Il computer che ospita il sito web",
         "Il protocollo di comunicazione",
         "Il cavo di rete che connette i dispositivi"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Il programma che richiede un servizio (es. il browser). (Rif: Slide Slide 13)"
     },
     {
@@ -51,7 +51,7 @@
       "type": "theory",
       "question": "Quale protocollo viene utilizzato per il trasferimento di ipertesti sul Web?",
       "options": [
-        "SMTP",
+        "HTTPS",
         "FTP",
         "HTTP",
         "SSH"
@@ -67,9 +67,9 @@
       "question": "Cosa significa l'acronimo URL?",
       "options": [
         "Uniform Resource Locator",
-        "Universal Resource Link",
-        "Unique Request Locator",
-        "Unified Remote Link"
+        "Universal Resource Identifier",
+        "Uniform Resource Name",
+        "Universal Request Locator"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 0,
@@ -81,13 +81,13 @@
       "type": "theory",
       "question": "In un indirizzo web come www.treccani.it, cosa rappresenta .it?",
       "options": [
-        "Il dominio di terzo livello",
         "Il dominio primario nazionale (ccTLD)",
-        "Il protocollo",
-        "Il nome dell'host"
+        "Il dominio di terzo livello",
+        "Il sottodominio",
+        "Il percorso del file"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Il dominio primario nazionale (ccTLD). (Rif: Slide Slide 21)"
     },
     {
@@ -96,7 +96,7 @@
       "type": "theory",
       "question": "Quanti bit compongono un indirizzo IPv4?",
       "options": [
-        "128 bit",
+        "16 bit",
         "64 bit",
         "32 bit",
         "16 bit"
@@ -111,13 +111,13 @@
       "type": "theory",
       "question": "Qual è la funzione del DNS (Domain Name System)?",
       "options": [
-        "Cifrare i dati inviati sulla rete",
         "Tradurre i nomi simbolici (domini) in indirizzi IP numerici",
-        "Gestire l'invio delle email",
-        "Formattare il testo delle pagine web"
+        "Cifrare i dati inviati sulla rete",
+        "Cifrare le comunicazioni di rete",
+        "Gestire il bilanciamento del carico tra server"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Tradurre i nomi simbolici (domini) in indirizzi IP numerici. (Rif: Slide Slide 31)"
     },
     {
@@ -126,13 +126,13 @@
       "type": "theory",
       "question": "Cosa differenzia HTTPS da HTTP?",
       "options": [
-        "HTTPS è più veloce",
         "HTTPS utilizza un livello di sicurezza (TLS/SSL) per crittografare la comunicazione",
-        "HTTPS non usa i cookie",
-        "HTTPS serve solo per i video"
+        "HTTPS è più veloce",
+        "HTTPS supporta solo connessioni persistenti",
+        "HTTPS ottimizzato principalmente per per i video"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: HTTPS utilizza un livello di sicurezza (TLS/SSL) per crittografare la comunicazione. (Rif: Slide Slide 41)"
     },
     {
@@ -141,7 +141,7 @@
       "type": "theory",
       "question": "Poiché HTTP è un protocollo \"stateless\", cosa viene usato per mantenere la sessione utente (es. carrello e-commerce)?",
       "options": [
-        "HTML",
+        "JavaScript lato client",
         "DNS",
         "Cookies",
         "Router"
@@ -156,7 +156,7 @@
       "type": "theory",
       "question": "Quale tra i seguenti è un linguaggio di scripting lato server (Backend)?",
       "options": [
-        "HTML",
+        "CSS",
         "CSS",
         "JavaScript (client-side)",
         "PHP"
@@ -171,13 +171,13 @@
       "type": "theory",
       "question": "In un'architettura a 3 livelli (3-Tier), qual è il compito del \"Logic Tier\"?",
       "options": [
-        "Gestire l'interfaccia utente",
         "Generare contenuti dinamici (Application Server)",
+        "Gestire l'interfaccia utente",
         "Memorizzare i dati in modo persistente",
         "Instradare i pacchetti di rete"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Generare contenuti dinamici (Application Server). (Rif: Slide Slide 57)"
     },
     {
@@ -186,13 +186,13 @@
       "type": "theory",
       "question": "Qual è un vantaggio principale del Cloud Computing?",
       "options": [
-        "Riduzione della larghezza di banda",
         "Scalabilità elastica e modello Pay-per-use",
+        "Riduzione della larghezza di banda",
         "Obbligo di possedere server fisici in azienda",
         "Utilizzo esclusivo di reti locali"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Scalabilità elastica e modello Pay-per-use. (Rif: Slide Slide 62)"
     },
     {
@@ -231,13 +231,13 @@
       "type": "theory",
       "question": "Cosa si intende per \"Veracità\" nei Big Data?",
       "options": [
-        "La velocità con cui arrivano i dati",
         "La qualità, affidabilità e accuratezza dei dati",
+        "La velocità con cui arrivano i dati",
         "La diversità dei formati dei dati",
         "La quantità di spazio occupato dai dati"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La qualità, affidabilità e accuratezza dei dati. (Rif: Slide Slide 98)"
     },
     {
@@ -246,13 +246,13 @@
       "type": "theory",
       "question": "Un DBMS (Database Management System) deve garantire che i dati siano:",
       "options": [
-        "Temporanei e volatili",
         "Persistenti, condivisi, affidabili e sicuri",
-        "Solo testuali",
-        "Accessibili solo da un singolo utente alla volta"
+        "Accessibili solo in modalità lettura",
+        "Organizzati in formato binario esclusivamente",
+        "Modificabili solo dall'amministratore di sistema"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Persistenti, condivisi, affidabili e sicuri. (Rif: Slide Slide 110)"
     },
     {
@@ -261,10 +261,10 @@
       "type": "theory",
       "question": "Nel modello relazionale, cosa rappresenta una \"riga\" (o record) di una tabella?",
       "options": [
-        "Un attributo",
-        "Una relazione",
+        "Una colonna",
+        "Una chiave esterna",
         "Un'istanza dell'entità",
-        "Il nome della tabella"
+        "Un indice secondario"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 2,
@@ -276,13 +276,13 @@
       "type": "theory",
       "question": "A cosa serve una \"Chiave Primaria\" (Primary Key)?",
       "options": [
-        "A collegare due tabelle diverse",
         "A identificare in modo univoco ogni record nella tabella",
+        "A collegare due tabelle diverse",
         "A permettere valori duplicati",
         "A gestire i colori della tabella"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: A identificare in modo univoco ogni record nella tabella. (Rif: Slide Slide 115, 126)"
     },
     {
@@ -294,7 +294,7 @@
         "Zero",
         "False",
         "NULL",
-        "Blank"
+        "Empty"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 2,
@@ -309,7 +309,7 @@
         "Un elemento di A è collegato a più elementi di B, ma un elemento di B è collegato a un solo elemento di A",
         "Un elemento di A è collegato a un solo elemento di B",
         "Più elementi di A sono collegati a più elementi di B",
-        "Nessun elemento è collegato"
+        "Ogni elemento di A è collegato a un solo elemento di B"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 0,
@@ -321,13 +321,13 @@
       "type": "theory",
       "question": "Cosa garantisce l'integrità referenziale?",
       "options": [
-        "Che la chiave primaria non sia nulla",
         "Che il valore di una chiave esterna corrisponda a una chiave primaria esistente nella tabella collegata",
+        "Che la chiave primaria non sia nulla",
         "Che tutti i campi siano compilati",
         "Che il database sia veloce"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Che il valore di una chiave esterna corrisponda a una chiave primaria esistente nella tabella collegata. (Rif: Slide Slide 139)"
     },
     {
@@ -339,7 +339,7 @@
         "Usano solo tabelle rigide",
         "Sono meno flessibili dei relazionali",
         "Gestiscono meglio dati non strutturati e sono molto scalabili",
-        "Non permettono di salvare documenti"
+        "Supportano schemi flessibili e non strutturati"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 2,
@@ -351,13 +351,13 @@
       "type": "theory",
       "question": "Che cos'è un Data Warehouse?",
       "options": [
-        "Un database usato per le transazioni quotidiane (OLTP)",
         "Un archivio storico, integrato e non volatile per l'analisi dei dati",
+        "Un database usato per le transazioni quotidiane (OLTP)",
         "Un sistema per la gestione delle email",
-        "Un software antivirus"
+        "Un sistema di virtualizzazione dei server"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Un archivio storico, integrato e non volatile per l'analisi dei dati. (Rif: Slide Slide 150)"
     },
     {
@@ -366,13 +366,13 @@
       "type": "theory",
       "question": "Quali sono i tre requisiti della terna CIA nella sicurezza informatica?",
       "options": [
-        "Controllo, Intelligenza, Automazione",
         "Confidentiality (Riservatezza), Integrity (Integrità), Availability (Disponibilità)",
+        "Controllo, Intelligenza, Automazione",
         "Certezza, Identità, Autenticazione",
         "Codice, Indirizzo, Accesso"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Confidentiality (Riservatezza), Integrity (Integrità), Availability (Disponibilità). (Rif: Slide Slide 181)"
     },
     {
@@ -396,13 +396,13 @@
       "type": "theory",
       "question": "Qual è la differenza tra crittografia simmetrica e asimmetrica?",
       "options": [
-        "La simmetrica usa due chiavi, l'asimmetrica una",
         "La simmetrica usa la stessa chiave per cifrare e decifrare; l'asimmetrica usa una coppia di chiavi (pubblica e privata)",
+        "La simmetrica usa due chiavi, l'asimmetrica una",
         "L'asimmetrica è più veloce della simmetrica",
         "La simmetrica non garantisce la riservatezza"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La simmetrica usa la stessa chiave per cifrare e decifrare; l'asimmetrica usa una coppia di chiavi (pubblica e privata). (Rif: Slide Slide 220, 224)"
     },
     {
@@ -411,13 +411,13 @@
       "type": "theory",
       "question": "Nell'algoritmo RSA, la sicurezza si basa sulla difficoltà computazionale di:",
       "options": [
-        "Moltiplicare due numeri piccoli",
         "Fattorizzare il prodotto di due numeri primi molto grandi",
+        "Moltiplicare due numeri piccoli",
         "Ordinare una lista di numeri",
         "Trovare il numero più grande in un array"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Fattorizzare il prodotto di due numeri primi molto grandi. (Rif: Slide Slide 228, 230)"
     },
     {
@@ -426,13 +426,13 @@
       "type": "theory",
       "question": "Un attacco \"Man-in-the-middle\" compromette principalmente:",
       "options": [
-        "La disponibilità del server",
         "La riservatezza e l'integrità della comunicazione",
-        "La velocità della CPU",
-        "Il funzionamento del mouse"
+        "La disponibilità del server",
+        "La latenza di rete",
+        "L'integrità dei certificati digitali"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La riservatezza e l'integrità della comunicazione. (Rif: Slide Slide 43, 182-183)"
     },
     {
@@ -441,13 +441,13 @@
       "type": "theory",
       "question": "L'algoritmo AES (Advanced Encryption Standard) è un esempio di:",
       "options": [
-        "Cifratura a chiave pubblica",
         "Cifratura simmetrica a blocchi",
-        "Funzione Hash",
-        "Cifratura a flusso"
+        "Cifratura a chiave pubblica",
+        "Algoritmo di compressione",
+        "Protocollo di autenticazione"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Cifratura simmetrica a blocchi. (Rif: Slide Slide 206, 218)"
     },
     {
@@ -471,13 +471,13 @@
       "type": "theory",
       "question": "Qual è la differenza tra classificazione e regressione?",
       "options": [
-        "La classificazione predice un valore numerico continuo, la regressione una classe",
         "La classificazione predice una classe (categorica), la regressione un valore numerico (reale)",
-        "Non c'è differenza",
-        "La regressione si usa solo per le immagini"
+        "La classificazione predice un valore numerico continuo, la regressione una classe",
+        "Entrambe richiedono dati etichettati per l'addestramento",
+        "La classificazione richiede dati normalizzati, la regressione no"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La classificazione predice una classe (categorica), la regressione un valore numerico (reale). (Rif: Slide Slide 253)"
     },
     {
@@ -501,13 +501,13 @@
       "type": "theory",
       "question": "Cosa rappresenta la curva ROC?",
       "options": [
-        "La relazione tra Precision e Recall",
         "La relazione tra Sensitivity (True Positive Rate) e 1-Specificity (False Positive Rate)",
+        "La relazione tra Precision e Recall",
         "L'andamento dell'errore nel tempo",
         "La velocità di addestramento della rete"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La relazione tra Sensitivity (True Positive Rate) e 1-Specificity (False Positive Rate). (Rif: Slide Slide 277)"
     },
     {
@@ -531,13 +531,13 @@
       "type": "theory",
       "question": "A cosa serve il meccanismo di \"Attention\" nei Transformer?",
       "options": [
-        "A dimenticare le parole precedenti",
         "A focalizzarsi sulle parti rilevanti dell'input per generare l'output corrente",
+        "A dimenticare le parole precedenti",
         "A ridurre la dimensione del vocabolario",
         "A spegnere i neuroni non utilizzati"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: A focalizzarsi sulle parti rilevanti dell'input per generare l'output corrente. (Rif: Slide Slide 314-315)"
     },
     {
@@ -546,13 +546,13 @@
       "type": "theory",
       "question": "ChatGPT è un esempio di:",
       "options": [
-        "Modello predittivo del tempo atmosferico",
         "Chatbot basato su un modello LLM (Large Language Model)",
-        "Database relazionale",
-        "Sistema operativo"
+        "Modello predittivo del tempo atmosferico",
+        "Sistema di gestione dei contenuti (CMS)",
+        "Framework di sviluppo web"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Chatbot basato su un modello LLM (Large Language Model). (Rif: Slide Slide 294)"
     },
     {
@@ -563,7 +563,7 @@
       "options": [
         "La conversione del testo in unità più piccole (parole o parti di parole) da dare in pasto alla rete",
         "Il pagamento per usare il servizio",
-        "La cifratura del testo",
+        "La traduzione automatica tra lingue",
         "La traduzione in un'altra lingua"
       ],
       "slide_ref": "4) IA.pdf",
@@ -576,13 +576,13 @@
       "type": "theory",
       "question": "Qual è uno dei problemi legati alla crescita delle dimensioni dei modelli LLM?",
       "options": [
-        "Diventano troppo facili da addestrare",
         "Il consumo energetico per l'addestramento diventa enorme",
+        "Diventano troppo facili da addestrare",
         "Richiedono meno dati",
         "Diventano meno precisi"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Il consumo energetico per l'addestramento diventa enorme. (Rif: Slide Slide 334)"
     },
     {
@@ -591,13 +591,13 @@
       "type": "theory",
       "question": "Cos'è il \"Prompt Engineering\"?",
       "options": [
-        "La progettazione dell'hardware per la IA",
         "La scelta opportuna delle istruzioni (input) per ottenere i risultati migliori da un modello generativo",
+        "La progettazione dell'hardware per la IA",
         "La programmazione in Python",
         "La riparazione dei server"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La scelta opportuna delle istruzioni (input) per ottenere i risultati migliori da un modello generativo. (Rif: Slide Slide 293)"
     },
     {
@@ -624,7 +624,7 @@
         "L'affitto di uno spazio fisico (rack) in un Data Center per inserire un server di proprietà del cliente",
         "L'affitto di uno spazio web su un server condiviso",
         "La creazione della homepage di un sito",
-        "La navigazione da casa"
+        "Il servizio di hosting condiviso di server"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 0,
@@ -651,13 +651,13 @@
       "type": "theory",
       "question": "Come viene definita una \"LAN\" (Local Area Network)?",
       "options": [
-        "Una rete che collega dispositivi su scala globale",
         "Una rete di limitata estensione (stesso edificio o edifici adiacenti)",
+        "Una rete che collega dispositivi su scala globale",
         "Una rete metropolitana",
         "Una rete senza fili satellitare"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Una rete di limitata estensione (stesso edificio o edifici adiacenti). (Rif: Slide Slide 69)"
     },
     {
@@ -666,13 +666,13 @@
       "type": "theory",
       "question": "Quale standard IEEE regola le reti wireless (Wi-Fi)?",
       "options": [
-        "IEEE 802.3",
         "IEEE 802.11",
+        "IEEE 802.3",
         "IEEE 802.15",
         "IEEE 802.1"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: IEEE 802.11. (Rif: Slide Slide 81)"
     },
     {
@@ -681,13 +681,13 @@
       "type": "theory",
       "question": "Quando un server web invia un cookie al browser, quale intestazione HTTP utilizza?",
       "options": [
-        "Get-Cookie",
         "Set-Cookie",
+        "Get-Cookie",
         "Cookie-Request",
         "Accept-Cookie"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Set-Cookie. (Rif: Slide Slide 45)"
     },
     {
@@ -696,13 +696,13 @@
       "type": "theory",
       "question": "Cosa sono i \"Root Name Server\" nel sistema DNS?",
       "options": [
-        "I server che gestiscono le password degli utenti",
         "I server al livello più alto della gerarchia che mantengono la lista dei server responsabili per i Top Level Domain (TLD)",
+        "I server che gestiscono le password degli utenti",
         "I server che memorizzano la cronologia del browser",
         "I router domestici"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: I server al livello più alto della gerarchia che mantengono la lista dei server responsabili per i Top Level Domain (TLD). (Rif: Slide Slide 31)"
     },
     {
@@ -741,7 +741,7 @@
       "type": "theory",
       "question": "Qual è la differenza tra una \"Superchiave\" e una \"Chiave\" in un database relazionale?",
       "options": [
-        "Non c'è differenza",
+        "La Superchiave può contenere attributi ridondanti, la Chiave no",
         "La superchiave è numerica, la chiave è testuale",
         "Una chiave è una superchiave \"minimale\" (non contiene attributi superflui per l'identificazione univoca)",
         "La chiave permette i valori NULL, la superchiave no"
@@ -756,13 +756,13 @@
       "type": "theory",
       "question": "Cosa indica una dipendenza funzionale",
       "options": [
-        "Che Y è sempre maggiore di Z",
         "Che per ogni valore di Y, c'è un unico valore corrispondente di Z",
+        "Che Y determina univocamente Z in ogni istanza",
         "Che Z è la chiave primaria",
         "Che Y e Z sono in tabelle diverse"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Che per ogni valore di Y, c'è un unico valore corrispondente di Z. (Rif: Slide Slide 137)"
     },
     {
@@ -771,13 +771,13 @@
       "type": "theory",
       "question": "Cosa si intende per \"Locking a granularità fine\" in un DBMS?",
       "options": [
-        "Il blocco dell'intero file del database per ogni operazione",
         "La capacità di bloccare solo una singola riga o un campo invece dell'intera tabella durante una modifica",
+        "Il blocco dell'intero file del database per ogni operazione",
         "La cifratura dei dati a livello di bit",
         "La compressione dei dati per risparmiare spazio"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La capacità di bloccare solo una singola riga o un campo invece dell'intera tabella durante una modifica. (Rif: Slide Slide 156-157)"
     },
     {
@@ -801,13 +801,13 @@
       "type": "theory",
       "question": "In un diagramma E/R, cosa rappresenta una relazione \"Molti a Molti\" (N:M)?",
       "options": [
-        "Un elemento di A è collegato a un solo elemento di B",
         "Un elemento di A può essere collegato a più elementi di B, e un elemento di B a più elementi di A",
+        "Un elemento di A è collegato a un solo elemento di B",
         "Le due entità non possono comunicare",
         "È una relazione vietata nei database"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Un elemento di A può essere collegato a più elementi di B, e un elemento di B a più elementi di A. (Rif: Slide Slide 128)"
     },
     {
@@ -831,13 +831,13 @@
       "type": "theory",
       "question": "Quale attacco attivo consiste nel catturare dati e ritrasmetterli per ottenere un effetto non autorizzato?",
       "options": [
-        "Masquerade",
         "Replay",
+        "Masquerade",
         "Denial of Service (DoS)",
         "Phishing"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Replay. (Rif: Slide Slide 192)"
     },
     {
@@ -846,13 +846,13 @@
       "type": "theory",
       "question": "Quanto è lungo (in bit) lo spazio delle chiavi del DES classico?",
       "options": [
-        "32 bit",
         "56 bit",
+        "32 bit",
         "128 bit",
         "256 bit"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: 56 bit. (Rif: Slide Slide 207)"
     },
     {
@@ -861,13 +861,13 @@
       "type": "theory",
       "question": "Qual è il vantaggio principale del 3DES (Triplo DES) rispetto al DES?",
       "options": [
-        "È molto più veloce",
         "Aumenta la lunghezza efficace della chiave (fino a 112 bit), rendendo più difficile l'attacco a forza bruta",
+        "È molto più veloce",
         "Usa chiavi pubbliche invece di private",
         "Richiede meno memoria"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Aumenta la lunghezza efficace della chiave (fino a 112 bit), rendendo più difficile l'attacco a forza bruta. (Rif: Slide Slide 215)"
     },
     {
@@ -876,28 +876,29 @@
       "type": "theory",
       "question": "Cosa garantisce il requisito di \"Non ripudio\"?",
       "options": [
-        "Che nessuno possa leggere il messaggio",
         "Che il mittente non possa negare di aver inviato un messaggio e il destinatario non possa negare di averlo ricevuto",
+        "Che nessuno possa leggere il messaggio",
         "Che il sistema non vada mai offline",
         "Che i virus vengano bloccati"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Che il mittente non possa negare di aver inviato un messaggio e il destinatario non possa negare di averlo ricevuto. (Rif: Slide Slide 185)"
     },
     {
       "id": "643d2219-df93-4e7b-b0d2-dbf244ee5601",
       "topic": "security",
       "type": "theory",
-      "question": "In un attacco a \"Forza Bruta\", quante chiavi bisogna provare mediamente per trovare quella corretta in uno spazio di",
+      "question": "In un attacco a \"Forza Bruta\", quante chiavi bisogna provare mediamente per trovare quella corretta in uno spazio di N chiavi?",
       "options": [
-        "Tutte le chiavi (",
-        "La metà delle chiavi (",
-        "Solo 10 chiavi"
+        "La metà delle chiavi (N/2)",
+        "Un quarto delle chiavi (N/4)",
+        "Un terzo delle chiavi (N/3)",
+        "Un quarto delle chiavi (N/4)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
-      "explanation": "Risposta corretta: La metà delle chiavi (. (Rif: Slide Slide 194)"
+      "correct": 0,
+      "explanation": "Risposta corretta: La metà delle chiavi (N/2). In media, in un attacco a forza bruta bisogna provare metà delle chiavi possibili prima di trovare quella corretta. (Rif: Slide Slide 194)"
     },
     {
       "id": "bf18de1e-c5ab-4d49-9b86-89769f1c1144",
@@ -907,7 +908,7 @@
       "options": [
         "Sono facili da calcolare in una direzione, ma difficili da invertire senza un'informazione speciale (la \"trapdoor\")",
         "Sono impossibili da calcolare in entrambe le direzioni",
-        "Sono usate solo per la compressione dei file",
+        "Sono utilizzate principalmente per la crittografia asimmetrica",
         "Sono funzioni simmetriche lineari"
       ],
       "slide_ref": "3) Sicurezza.pdf",
@@ -920,13 +921,13 @@
       "type": "theory",
       "question": "Cosa si intende per \"Superficie d'attacco\"?",
       "options": [
-        "Lo schermo del computer",
         "L'elenco di tutte le possibili vulnerabilità o punti di ingresso di un sistema sfruttabili da un attaccante",
-        "L'area geografica coperta dal Wi-Fi",
-        "Il tappetino del mouse"
+        "Il perimetro di sicurezza della rete aziendale",
+        "Il numero di porte di rete aperte sul firewall",
+        "L'insieme dei servizi esposti pubblicamente su internet"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: L'elenco di tutte le possibili vulnerabilità o punti di ingresso di un sistema sfruttabili da un attaccante. (Rif: Slide Slide 201)"
     },
     {
@@ -935,13 +936,13 @@
       "type": "theory",
       "question": "Qual è l'obiettivo del \"Test di Turing\"?",
       "options": [
-        "Misurare la velocità di calcolo di un processore",
         "Determinare se una macchina è in grado di esibire un comportamento intelligente indistinguibile da quello umano",
+        "Misurare la velocità di calcolo di un processore",
         "Calcolare la probabilità di pioggia",
         "Verificare se un robot può camminare"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Determinare se una macchina è in grado di esibire un comportamento intelligente indistinguibile da quello umano. (Rif: Slide Slide 234)"
     },
     {
@@ -950,13 +951,13 @@
       "type": "theory",
       "question": "In una matrice di confusione, cosa sono i \"Falsi Negativi\" (FN)?",
       "options": [
-        "Istanze che sono negative e classificate come negative",
         "Istanze che sono positive nella realtà, ma classificate erroneamente come negative",
+        "Istanze che sono negative e classificate come negative",
         "Istanze che sono negative nella realtà, ma classificate erroneamente come positive",
         "Istanze scartate dal sistema"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Istanze che sono positive nella realtà, ma classificate erroneamente come negative. (Rif: Slide Slide 266)"
     },
     {
@@ -980,13 +981,13 @@
       "type": "theory",
       "question": "In cosa consiste il metodo \"One-Hot Encoding\" per rappresentare le parole in una rete neurale?",
       "options": [
-        "Assegnare un numero casuale a ogni parola",
         "Rappresentare ogni parola come un vettore binario con un solo '1' in una posizione specifica e '0' altrove",
+        "Assegnare un numero casuale a ogni parola",
         "Tradurre la parola in latino",
         "Rimuovere le vocali dalla parola"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Rappresentare ogni parola come un vettore binario con un solo '1' in una posizione specifica e '0' altrove. (Rif: Slide Slide 300)"
     },
     {
@@ -1010,13 +1011,13 @@
       "type": "theory",
       "question": "Cosa s'intende per \"Bias\" (polarizzazione) in un algoritmo di IA?",
       "options": [
-        "La velocità di risposta dell'algoritmo",
         "Un trattamento iniquo o discriminatorio nei risultati, spesso dovuto ai dati di training o alla funzione obiettivo",
+        "La velocità di risposta dell'algoritmo",
         "La capacità di funzionare senza corrente elettrica",
         "Il costo della licenza software"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Un trattamento iniquo o discriminatorio nei risultati, spesso dovuto ai dati di training o alla funzione obiettivo. (Rif: Slide Slide 254)"
     },
     {
@@ -1025,13 +1026,13 @@
       "type": "theory",
       "question": "L'approccio \"Bag of Words\" ha un limite principale. Quale?",
       "options": [
-        "Richiede troppa memoria",
         "Perde l'informazione sull'ordine delle parole e la struttura della frase",
+        "Richiede troppa memoria",
         "Funziona solo con l'inglese",
-        "Non può contare le parole"
+        "Richiede un vocabolario molto grande per testi complessi"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Perde l'informazione sull'ordine delle parole e la struttura della frase. (Rif: Slide Slide 303 - Implicito in \"la frase può perdere significato\")"
     },
     {
@@ -1040,13 +1041,13 @@
       "type": "theory",
       "question": "Come ha fatto Meta (Facebook) con il modello LLaMA a ottenere risultati eccellenti pur avendo meno parametri di GPT-3?",
       "options": [
-        "Ha copiato il codice di Google",
         "Ha addestrato il modello su dati di migliore qualità e per più tempo",
+        "Ha copiato il codice di Google",
         "Ha usato computer quantistici",
         "Ha eliminato la tokenizzazione"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Ha addestrato il modello su dati di migliore qualità e per più tempo. (Rif: Slide Slide 336)"
     },
     {
@@ -1055,13 +1056,13 @@
       "type": "theory",
       "question": "Cos'è la \"Temperature\" nella generazione di testo con LLM (concetto implicito nella variabilità dell'output)?",
       "options": [
-        "Il calore fisico della CPU",
         "Un parametro che controlla la creatività/casualità della risposta (più alta = più casuale/creativa)",
+        "Il calore fisico della CPU",
         "Il tono di voce dell'assistente",
         "La data di creazione del modello"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Un parametro che controlla la creatività/casualità della risposta (più alta = più casuale/creativa). (Rif: Slide Concetto generale LLM - Slide 326 accenna ai rischi di output, la temperatura è standard nei parametri di generazione descritti nei corsi LLM associati a queste slide)"
     },
     {
@@ -1070,13 +1071,13 @@
       "type": "theory",
       "question": "Quale metrica combina Precision e Recall in un unico valore (media armonica)?",
       "options": [
-        "Accuracy",
         "F-Measure (o F-Score / F-Beta)",
+        "Accuracy",
         "ROC Curve",
         "AUC"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: F-Measure (o F-Score / F-Beta). (Rif: Slide Slide 274)"
     },
     {
@@ -1100,13 +1101,13 @@
       "type": "theory",
       "question": "Nel linguaggio HTML, quale tag viene utilizzato per creare un link ipertestuale?",
       "options": [
-        "<link>",
         "<a> (anchor)",
+        "<link>",
         "<href>",
         "<hyper>"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: <a> (anchor). (Rif: Slide Slide 8)"
     },
     {
@@ -1130,13 +1131,13 @@
       "type": "theory",
       "question": "Nell'indirizzamento CIDR (Classless Inter-Domain Routing), cosa indica la notazione /24 in 192.168.1.0/24?",
       "options": [
-        "Che ci sono 24 host disponibili",
         "Che i primi 24 bit identificano la rete (Network ID) e i restanti l'host",
+        "Che ci sono 24 host disponibili",
         "Che la rete è attiva 24 ore su 24",
         "Che è un indirizzo IPv6"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Che i primi 24 bit identificano la rete (Network ID) e i restanti l'host. (Rif: Slide Slide 29)"
     },
     {
@@ -1145,13 +1146,13 @@
       "type": "theory",
       "question": "Perché si è reso necessario il passaggio da IPv4 a IPv6?",
       "options": [
-        "IPv4 era troppo lento",
         "IPv4 ha esaurito gli indirizzi disponibili (solo 32 bit)",
+        "IPv4 era troppo lento",
         "IPv6 è più facile da ricordare",
-        "IPv4 non supportava il Wi-Fi"
+        "IPv4 richiede configurazione avanzata perva il Wi-Fi"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: IPv4 ha esaurito gli indirizzi disponibili (solo 32 bit). (Rif: Slide Slide 30)"
     },
     {
@@ -1160,13 +1161,13 @@
       "type": "theory",
       "question": "Come viene rappresentato un indirizzo IPv6?",
       "options": [
-        "4 numeri decimali separati da punti",
         "8 gruppi di cifre esadecimali separati da due punti (:)",
+        "4 numeri decimali separati da punti",
         "Una sequenza binaria continua",
         "Un nome di dominio testuale"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: 8 gruppi di cifre esadecimali separati da due punti (:). (Rif: Slide Slide 30)"
     },
     {
@@ -1175,13 +1176,13 @@
       "type": "theory",
       "question": "I domini .com, .org e .net sono esempi di:",
       "options": [
-        "ccTLD (Country Code Top Level Domain)",
         "gTLD (Generic Top Level Domain)",
+        "ccTLD (Country Code Top Level Domain)",
         "Indirizzi IP statici",
         "Protocolli di sicurezza"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: gTLD (Generic Top Level Domain). (Rif: Slide Slide 21-22)"
     },
     {
@@ -1190,13 +1191,13 @@
       "type": "theory",
       "question": "Qual è il compito dei \"Registrar\" nel sistema dei nomi di dominio?",
       "options": [
-        "Creare nuovi protocolli internet",
         "Agire come intermediari per l'assegnazione dei domini all'interno dei gTLD",
+        "Creare nuovi protocolli internet",
         "Spegnere i server non utilizzati",
         "Tradurre le pagine web"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Agire come intermediari per l'assegnazione dei domini all'interno dei gTLD. (Rif: Slide Slide 24)"
     },
     {
@@ -1205,13 +1206,13 @@
       "type": "theory",
       "question": "In un'architettura 3-Tier, quale componente supporta solitamente l'applicazione nel \"Logic Tier\"?",
       "options": [
-        "Il Browser",
         "L'Application Server (es. Tomcat, JBoss)",
+        "Il Browser",
         "Il cavo Ethernet",
         "Il monitor"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: L'Application Server (es. Tomcat, JBoss). (Rif: Slide Slide 57-58)"
     },
     {
@@ -1220,13 +1221,13 @@
       "type": "theory",
       "question": "Quale dei seguenti è un mezzo trasmissivo \"guidato\"?",
       "options": [
-        "Onde radio",
         "Fibra ottica",
+        "Onde radio",
         "Satellitare",
         "Microonde"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Fibra ottica. (Rif: Slide Slide 71)"
     },
     {
@@ -1235,13 +1236,13 @@
       "type": "theory",
       "question": "Cos'è la \"Larghezza di banda\" (Bandwidth)?",
       "options": [
-        "La lunghezza fisica del cavo",
         "La massima quantità di dati che può essere trasmessa in un'unità di tempo (es. Mbps)",
+        "La lunghezza fisica del cavo",
         "Il peso del router",
         "La distanza tra due antenne"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: La massima quantità di dati che può essere trasmessa in un'unità di tempo (es. Mbps). (Rif: Slide Slide 72)"
     },
     {
@@ -1250,7 +1251,7 @@
       "type": "theory",
       "question": "Quale modello di erogazione informatica trasforma le risorse di calcolo in una \"commodity\" (come acqua o elettricità)?",
       "options": [
-        "Mainframe computing",
+        "Edge computing",
         "Client-Server locale",
         "Cloud Computing",
         "Peer-to-Peer"
@@ -1280,13 +1281,13 @@
       "type": "theory",
       "question": "Quale operazione dell'algebra relazionale permette di visualizzare \"verticalmente\" una tabella (selezionando solo alcune colonne)?",
       "options": [
-        "Selezione (Selection)",
         "Proiezione (Projection)",
+        "Selezione (Selection)",
         "Join",
         "Union"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: Proiezione (Projection). (Rif: Slide Slide 112)"
     },
     {
@@ -1310,13 +1311,13 @@
       "type": "theory",
       "question": "Cosa si intende per \"Integrità\" di un Data Warehouse?",
       "options": [
-        "I dati vengono cancellati ogni giorno",
         "I dati provengono da sistemi operativi diversi e vengono resi coerenti (es. formati uniformati)",
+        "I dati vengono cancellati ogni giorno",
         "Il database non ha password",
         "Contiene solo dati futuri"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 0,
       "explanation": "Risposta corretta: I dati provengono da sistemi operativi diversi e vengono resi coerenti (es. formati uniformati). (Rif: Slide Slide 150)"
     },
     {
@@ -1326,12 +1327,12 @@
       "question": "Un \"Albero binario di ricerca\" ha una proprietà speciale. Quale?",
       "options": [
         "I nodi sono disposti a caso",
-        "La chiave di ogni nodo è maggiore di quelle nel sottoalbero sinistro e minore di quelle nel sottoalbero destro",
         "Può contenere solo numeri pari",
-        "Non ha radici"
+        "La chiave di ogni nodo è maggiore di quelle nel sottoalbero sinistro e minore di quelle nel sottoalbero destro",
+        "Ogni nodo ha al massimo due figli"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: La chiave di ogni nodo è maggiore di quelle nel sottoalbero sinistro e minore di quelle nel sottoalbero destro. (Rif: Slide Slide 162)"
     },
     {
@@ -1341,12 +1342,12 @@
       "question": "Perché le matrici (array) non sono efficienti per certe operazioni di database rispetto agli alberi?",
       "options": [
         "Occupano meno memoria",
-        "Le operazioni di ricerca (es. trovare chi ha meno di 40 anni) richiedono di controllare ogni riga sequenzialmente",
         "Sono troppo veloci",
-        "Non supportano i numeri"
+        "Le operazioni di ricerca (es. trovare chi ha meno di 40 anni) richiedono di controllare ogni riga sequenzialmente",
+        "richiede configurazione avanzata perno i numeri"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Le operazioni di ricerca (es. trovare chi ha meno di 40 anni) richiedono di controllare ogni riga sequenzialmente. (Rif: Slide Slide 161)"
     },
     {
@@ -1356,12 +1357,12 @@
       "question": "In un database, cosa accade se non si usano meccanismi di \"Locking\" durante scritture concorrenti?",
       "options": [
         "Il database diventa più veloce",
-        "Si rischia la perdita di dati o incoerenza (l'ultimo che salva sovrascrive il lavoro dell'altro)",
         "Si attiva automaticamente il backup",
-        "Nulla, i database non hanno bisogno di locking"
+        "Si rischia la perdita di dati o incoerenza (l'ultimo che salva sovrascrive il lavoro dell'altro)",
+        "Si possono verificare race condition e perdita di dati"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Si rischia la perdita di dati o incoerenza (l'ultimo che salva sovrascrive il lavoro dell'altro). (Rif: Slide Slide 155 - Esempio del collega che sovrascrive)"
     },
     {
@@ -1371,12 +1372,12 @@
       "question": "Quale tipo di attacco crittografico prevede che l'attaccante conosca l'algoritmo e alcune coppie di testo in chiaro/testo cifrato?",
       "options": [
         "Ciphertext-only",
-        "Known-plaintext",
         "Chosen-plaintext",
+        "Known-plaintext",
         "DoS"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Known-plaintext. (Rif: Slide Slide 196)"
     },
     {
@@ -1387,7 +1388,7 @@
       "options": [
         "La sua chiave a 56 bit era diventata troppo corta e vulnerabile ad attacchi a forza bruta",
         "Era troppo costoso",
-        "Non funzionava sui computer moderni",
+        "Utilizzava un algoritmo di cifratura troppo semplice",
         "Era open source"
       ],
       "slide_ref": "3) Sicurezza.pdf",
@@ -1416,12 +1417,12 @@
       "question": "Qual è un esempio di funzione \"trapdoor one-way\" utilizzata nella crittografia asimmetrica?",
       "options": [
         "La somma di due numeri",
-        "La moltiplicazione di numeri primi molto grandi (facile) vs la fattorizzazione (difficile)",
         "L'ordinamento alfabetico",
+        "La moltiplicazione di numeri primi molto grandi (facile) vs la fattorizzazione (difficile)",
         "La compressione ZIP"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: La moltiplicazione di numeri primi molto grandi (facile) vs la fattorizzazione (difficile). (Rif: Slide Slide 228)"
     },
     {
@@ -1431,12 +1432,12 @@
       "question": "Chi sono Alice, Bob e Trudy negli esempi classici di crittografia?",
       "options": [
         "I creatori di internet",
-        "Mittente, Destinatario e Intruso/Attaccante",
         "Tre server famosi",
+        "Mittente, Destinatario e Intruso/Attaccante",
         "Tipi di virus"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Mittente, Destinatario e Intruso/Attaccante. (Rif: Slide Slide 182)"
     },
     {
@@ -1461,12 +1462,12 @@
       "question": "Quale programma IBM ha battuto i campioni umani a \"Jeopardy!\" nel 2011?",
       "options": [
         "Deep Blue",
-        "Watson",
         "AlphaGo",
+        "Watson",
         "HAL 9000"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Watson. (Rif: Slide Slide 235)"
     },
     {
@@ -1476,12 +1477,12 @@
       "question": "Cosa s'intende per \"Stemming\" nel pre-processing del testo?",
       "options": [
         "Tradurre il testo in inglese",
-        "Ridurre le parole alla loro radice (togliendo desinenze) per semplificare il dizionario",
         "Correggere gli errori grammaticali",
+        "Ridurre le parole alla loro radice (togliendo desinenze) per semplificare il dizionario",
         "Convertire il testo in immagini"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Ridurre le parole alla loro radice (togliendo desinenze) per semplificare il dizionario. (Rif: Slide Slide 301)"
     },
     {
@@ -1490,13 +1491,13 @@
       "type": "theory",
       "question": "Qual è il problema principale delle reti neurali ricorrenti (RNN) classiche quando elaborano sequenze lunghe?",
       "options": [
-        "Non possono leggere i numeri",
-        "Il problema della \"memoria\": gli elementi all'inizio della sequenza diventano meno influenti (vanishing gradient)",
+        "Soffrono del problema del vanishing gradient per sequenze lunghe",
         "Sono troppo veloci",
+        "Il problema della \"memoria\": gli elementi all'inizio della sequenza diventano meno influenti (vanishing gradient)",
         "Richiedono schermi grandi"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Il problema della \"memoria\": gli elementi all'inizio della sequenza diventano meno influenti (vanishing gradient). (Rif: Slide Slide 311)"
     },
     {
@@ -1506,7 +1507,7 @@
       "question": "Nell'architettura Encoder-Decoder classica (prima dei Transformer), qual è il \"collo di bottiglia\"?",
       "options": [
         "L'encoder deve comprimere tutta l'informazione della frase in un singolo vettore di dimensione fissa",
-        "Il decoder non funziona",
+        "Il decoder richiede configurazione avanzata per",
         "L'assenza di dati",
         "La mancanza di CPU"
       ],
@@ -1521,12 +1522,12 @@
       "question": "Cosa fa l'algoritmo Word2Vec?",
       "options": [
         "Corregge la sintassi",
-        "Crea una rappresentazione vettoriale (embedding) delle parole basata sul loro contesto semantico",
         "Conta quante parole ci sono in una frase",
+        "Crea una rappresentazione vettoriale (embedding) delle parole basata sul loro contesto semantico",
         "Traduce da Word a PDF"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Crea una rappresentazione vettoriale (embedding) delle parole basata sul loro contesto semantico. (Rif: Slide Slide 305)"
     },
     {
@@ -1536,12 +1537,12 @@
       "question": "In che modo il modello BERT di Google viene addestrato (\"Masked Language Modeling\")?",
       "options": [
         "Leggendo solo la prima parola",
-        "Mascherando alcune parole a caso nella frase e chiedendo alla rete di predirle usando il contesto sia sinistro che destro",
         "Leggendo solo da sinistra a destra",
+        "Mascherando alcune parole a caso nella frase e chiedendo alla rete di predirle usando il contesto sia sinistro che destro",
         "Memorizzando il dizionario"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Mascherando alcune parole a caso nella frase e chiedendo alla rete di predirle usando il contesto sia sinistro che destro. (Rif: Slide Slide 329)"
     },
     {
@@ -1566,8 +1567,8 @@
       "question": "Cosa distingue i modelli \"Decoder-only\" (come la famiglia GPT) dai modelli Encoder-Decoder?",
       "options": [
         "Usano solo la parte che genera testo (predizione della prossima parola) senza un encoder separato per l'input",
-        "Non possono generare testo",
-        "Sono usati solo per le immagini",
+        "Utilizzano solo la parte decoder dell'architettura Transformer",
+        "Richiedono un dataset di addestramento più grande",
         "Sono molto più piccoli"
       ],
       "slide_ref": "4) IA.pdf",
@@ -1581,12 +1582,12 @@
       "question": "Qual è una stima allarmante riguardo l'energia usata per addestrare i LLM?",
       "options": [
         "Consumano meno di una lampadina",
-        "Se il tasso di crescita continua, l'addestramento potrebbe usare tutta l'elettricità del pianeta entro il 2029 (secondo stime citate)",
         "L'energia è gratuita per le IA",
+        "Se il tasso di crescita continua, l'addestramento potrebbe usare tutta l'elettricità del pianeta entro il 2029 (secondo stime citate)",
         "I LLM producono energia"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Se il tasso di crescita continua, l'addestramento potrebbe usare tutta l'elettricità del pianeta entro il 2029 (secondo stime citate). (Rif: Slide Slide 334)"
     },
     {
@@ -1626,12 +1627,12 @@
       "question": "Cosa definisce formalmente un \"Protocollo di rete\"?",
       "options": [
         "L'hardware che connette i computer",
-        "L'insieme formale di regole che due dispositivi devono rispettare per comunicare",
         "La velocità della connessione",
+        "L'insieme formale di regole che due dispositivi devono rispettare per comunicare",
         "Il linguaggio di programmazione del sito"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: L'insieme formale di regole che due dispositivi devono rispettare per comunicare. (Rif: Slide Slide 16)"
     },
     {
@@ -1641,12 +1642,12 @@
       "question": "In quale anno Tim Berners-Lee ha fatto nascere il Web al CERN?",
       "options": [
         "1980",
-        "1989",
         "1995",
+        "1989",
         "2000"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: 1989. (Rif: Slide Slide 2)"
     },
     {
@@ -1655,13 +1656,13 @@
       "type": "theory",
       "question": "Qual è la differenza principale tra Web Hosting e Web Housing?",
       "options": [
-        "L'Hosting è gratuito, l'Housing è sempre a pagamento",
+        "L'Hosting include la gestione del server, l'Housing solo lo spazio fisico",
+        "L'Housing richiede manutenzione hardware da parte del cliente",
         "Nell'Hosting il server è del provider; nell'Housing il server è di proprietà del cliente e viene solo ospitato fisicamente",
-        "L'Housing serve solo per le case intelligenti",
-        "Non c'è differenza"
+        "L'Hosting è più economico, l'Housing offre maggiore controllo"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Nell'Hosting il server è del provider; nell'Housing il server è di proprietà del cliente e viene solo ospitato fisicamente. (Rif: Slide Slide 53-54)"
     },
     {
@@ -1671,12 +1672,12 @@
       "question": "Secondo le slide, quanti indirizzi IPv6 sono disponibili approssimativamente per ogni metro quadro della Terra?",
       "options": [
         "Circa 100",
-        "Circa",
         "Uno solo",
+        "Circa",
         "Nessuno"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Circa. (Rif: Slide Slide 30)"
     },
     {
@@ -1701,12 +1702,12 @@
       "question": "I cookie vengono salvati:",
       "options": [
         "Sul server centrale",
-        "Sul disco locale del client (browser)",
         "Nel router",
+        "Sul disco locale del client (browser)",
         "Nella scheda di rete"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Sul disco locale del client (browser). (Rif: Slide Slide 45)"
     },
     {
@@ -1731,12 +1732,12 @@
       "question": "Nel contesto dei Big Data, cosa distingue la \"Variabilità\" dalla \"Varietà\"?",
       "options": [
         "Sono sinonimi",
-        "La Varietà riguarda i tipi di dati (video, testo), la Variabilità riguarda l'incoerenza o il cambiamento di significato del dato nel tempo",
         "La Variabilità è la velocità dei dati",
+        "La Varietà riguarda i tipi di dati (video, testo), la Variabilità riguarda l'incoerenza o il cambiamento di significato del dato nel tempo",
         "La Varietà è la veridicità dei dati"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: La Varietà riguarda i tipi di dati (video, testo), la Variabilità riguarda l'incoerenza o il cambiamento di significato del dato nel tempo. (Rif: Slide Slide 102)"
     },
     {
@@ -1746,12 +1747,12 @@
       "question": "Chi ha proposto il modello relazionale nel 1970?",
       "options": [
         "Bill Gates",
-        "Edgar F. Codd",
         "Alan Turing",
+        "Edgar F. Codd",
         "Larry Page"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Edgar F. Codd. (Rif: Slide Slide 112)"
     },
     {
@@ -1776,12 +1777,12 @@
       "question": "Cosa succede se si usa l'approccio tradizionale alla gestione dei dati (File System) invece di un DBMS?",
       "options": [
         "Si ha una maggiore sicurezza",
-        "Manca un meccanismo integrato per il backup, la sicurezza granulare e la gestione della concorrenza",
         "I dati occupano meno spazio",
+        "Manca un meccanismo integrato per il backup, la sicurezza granulare e la gestione della concorrenza",
         "È più facile fare query complesse"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Manca un meccanismo integrato per il backup, la sicurezza granulare e la gestione della concorrenza. (Rif: Slide Slide 154)"
     },
     {
@@ -1791,12 +1792,12 @@
       "question": "In un database document-oriented (NoSQL), i dati sono spesso formattati in:",
       "options": [
         "Tabelle rigide",
-        "JSON o XML",
         "Codice binario puro",
+        "JSON o XML",
         "Fogli Excel"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: JSON o XML. (Rif: Slide Slide 146)"
     },
     {
@@ -1806,12 +1807,12 @@
       "question": "Quale operazione relazionale è una visualizzazione \"orizzontale\" della tabella (seleziona solo righe che soddisfano una condizione)?",
       "options": [
         "Proiezione",
-        "Selezione",
         "Join",
+        "Selezione",
         "Merge"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Selezione. (Rif: Slide Slide 112 - Selezione è orizzontale, Proiezione è verticale)"
     },
     {
@@ -1821,12 +1822,12 @@
       "question": "Cosa significa che un Data Warehouse è \"Orientato al soggetto\"?",
       "options": [
         "Che contiene solo dati sugli utenti",
-        "Che i dati sono organizzati per collegare tutti gli elementi relativi allo stesso evento o oggetto del mondo reale",
         "Che è soggettivo e non oggettivo",
+        "Che i dati sono organizzati per collegare tutti gli elementi relativi allo stesso evento o oggetto del mondo reale",
         "Che è molto piccolo"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Che i dati sono organizzati per collegare tutti gli elementi relativi allo stesso evento o oggetto del mondo reale. (Rif: Slide Slide 150)"
     },
     {
@@ -1836,12 +1837,12 @@
       "question": "Quale struttura dati permette di supportare in modo efficiente le operazioni di ricerca, evitando la scansione completa dei file?",
       "options": [
         "Liste collegate",
-        "Alberi (Search Trees)",
         "File di testo",
+        "Alberi (Search Trees)",
         "Array non ordinati"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Alberi (Search Trees). (Rif: Slide Slide 160-162)"
     },
     {
@@ -1851,12 +1852,12 @@
       "question": "Quale struttura utilizza l'algoritmo DES per la cifratura?",
       "options": [
         "Una rete neurale",
-        "Una struttura a cifrario di Feistel ripetuta 16 volte",
         "La scomposizione in fattori primi",
+        "Una struttura a cifrario di Feistel ripetuta 16 volte",
         "Un semplice scambio di lettere"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Una struttura a cifrario di Feistel ripetuta 16 volte. (Rif: Slide Slide 207)"
     },
     {
@@ -1866,12 +1867,12 @@
       "question": "Perché il \"Doppio DES\" non è considerato sicuro quanto ci si aspetterebbe?",
       "options": [
         "Perché la chiave è troppo corta",
-        "A causa dell'attacco \"Meet-in-the-middle\"",
         "Perché usa tre chiavi",
+        "A causa dell'attacco \"Meet-in-the-middle\"",
         "Perché è open source"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: A causa dell'attacco \"Meet-in-the-middle\". (Rif: Slide Slide 212)"
     },
     {
@@ -1881,12 +1882,12 @@
       "question": "Chi ha vinto la gara del NIST per diventare il nuovo standard AES nel 2001?",
       "options": [
         "IBM con Watson",
-        "L'algoritmo Rijndael (di Daemen e Rijmen)",
         "L'algoritmo RSA",
+        "L'algoritmo Rijndael (di Daemen e Rijmen)",
         "La NSA"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: L'algoritmo Rijndael (di Daemen e Rijmen). (Rif: Slide Slide 216)"
     },
     {
@@ -1896,12 +1897,12 @@
       "question": "Quale delle seguenti è una caratteristica della cifratura a blocchi (Block Cipher)?",
       "options": [
         "Cifra un bit alla volta in un flusso continuo",
+        "Utilizza una singola chiave condivisa tra le parti",
         "Segmenta il testo in blocchi di dimensione fissa (es. 64 o 128 bit)",
-        "Non usa chiavi",
-        "È usata solo per la voce"
+        "È usata ottimizzato principalmente per la voce"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Segmenta il testo in blocchi di dimensione fissa (es. 64 o 128 bit). (Rif: Slide Slide 205)"
     },
     {
@@ -1940,13 +1941,13 @@
       "type": "theory",
       "question": "Qual è la lunghezza variabile della chiave supportata dall'algoritmo AES?",
       "options": [
-        "Solo 56 bit",
-        "128, 192 o 256 bit",
+        "32 o 64 bit",
         "1024 o 2048 bit",
+        "128, 192 o 256 bit",
         "32 o 64 bit"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: 128, 192 o 256 bit. (Rif: Slide Slide 218)"
     },
     {
@@ -1956,12 +1957,12 @@
       "question": "Nell'apprendimento NON supervisionato, qual è l'obiettivo principale?",
       "options": [
         "Predire un valore futuro",
-        "Effettuare un \"clustering\" (raggruppamento) basandosi sulla vicinanza delle caratteristiche, senza etichette predefinite",
         "Battere un campione di scacchi",
+        "Effettuare un \"clustering\" (raggruppamento) basandosi sulla vicinanza delle caratteristiche, senza etichette predefinite",
         "Tradurre un testo"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Effettuare un \"clustering\" (raggruppamento) basandosi sulla vicinanza delle caratteristiche, senza etichette predefinite. (Rif: Slide Slide 242)"
     },
     {
@@ -1971,12 +1972,12 @@
       "question": "Qual è la definizione di \"Recall\"?",
       "options": [
         "La percentuale di veri positivi su tutti quelli dichiarati positivi",
-        "La percentuale di positivi reali che vengono individuati correttamente (TP / (TP + FN))",
         "La somma di positivi e negativi",
+        "La percentuale di positivi reali che vengono individuati correttamente (TP / (TP + FN))",
         "L'accuratezza totale"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: La percentuale di positivi reali che vengono individuati correttamente (TP / (TP + FN)). (Rif: Slide Slide 271)"
     },
     {
@@ -1986,12 +1987,12 @@
       "question": "Se l'indicatore F-Beta ha un Beta < 1, a cosa si dà più importanza?",
       "options": [
         "Alla Recall",
-        "Alla Precision",
         "All'Accuracy",
+        "Alla Precision",
         "Alla velocità"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Alla Precision."
     },
     {
@@ -2001,12 +2002,12 @@
       "question": "Quale problema specifico delle CNN (Reti Convoluzionali) le rende meno adatte al testo rispetto alle immagini?",
       "options": [
         "Sono troppo lente",
+        "richiede configurazione avanzata perno i colori",
         "Nel testo la posizione del pattern conta molto (sequenzialità), mentre le CNN cercano pattern ovunque nell'immagine",
-        "Non supportano i colori",
         "Richiedono troppa memoria"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Nel testo la posizione del pattern conta molto (sequenzialità), mentre le CNN cercano pattern ovunque nell'immagine. (Rif: Slide Slide 308)"
     },
     {
@@ -2016,12 +2017,12 @@
       "question": "Nel paper \"Attention is all you need\" (2017), quale grande cambiamento architetturale viene introdotto?",
       "options": [
         "Si eliminano le reti neurali",
-        "Si dimostra che il meccanismo di Attention può essere usato autonomamente, senza bisogno di ricorrenza (RNN) o convoluzione",
         "Si introduce il modello Word2Vec",
+        "Si dimostra che il meccanismo di Attention può essere usato autonomamente, senza bisogno di ricorrenza (RNN) o convoluzione",
         "Si usa solo la CPU"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Si dimostra che il meccanismo di Attention può essere usato autonomamente, senza bisogno di ricorrenza (RNN) o convoluzione. (Rif: Slide Slide 319-320)"
     },
     {
@@ -2031,12 +2032,12 @@
       "question": "Quale tra i seguenti è un modello LLM Open Source?",
       "options": [
         "GPT-4",
-        "Llama 2 (Meta)",
         "ChatGPT",
+        "Llama 2 (Meta)",
         "Claude 2 (in versione proprietaria)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Llama 2 (Meta). (Rif: Slide Slide 292)"
     },
     {
@@ -2046,12 +2047,12 @@
       "question": "Cosa si intende per \"Bias\" (distorsione) nei dati di training?",
       "options": [
         "I dati sono troppo pochi",
-        "I dati riflettono pregiudizi o iniquità che portano il modello a discriminare o fornire risposte non oggettive",
         "I dati sono compressi male",
+        "I dati riflettono pregiudizi o iniquità che portano il modello a discriminare o fornire risposte non oggettive",
         "I dati sono criptati"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: I dati riflettono pregiudizi o iniquità che portano il modello a discriminare o fornire risposte non oggettive. (Rif: Slide Slide 254)"
     },
     {
@@ -2061,12 +2062,12 @@
       "question": "Qual è lo svantaggio principale della Lemmatization rispetto allo Stemming?",
       "options": [
         "È meno precisa",
-        "È un processo più complesso che dipende dal contesto, anche se preserva meglio il significato",
         "Riduce troppo il dizionario",
+        "È un processo più complesso che dipende dal contesto, anche se preserva meglio il significato",
         "Funziona solo con i numeri"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: È un processo più complesso che dipende dal contesto, anche se preserva meglio il significato. (Rif: Slide Slide 301)"
     },
     {
@@ -2076,12 +2077,12 @@
       "question": "Quale tecnica usa \"GPT-1\" per l'addestramento?",
       "options": [
         "Masked Language Modeling (come BERT)",
-        "Generative Pre-training (predire la parola successiva in una sequenza)",
         "Reinforcement Learning puro",
+        "Generative Pre-training (predire la parola successiva in una sequenza)",
         "Analisi delle immagini"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Generative Pre-training (predire la parola successiva in una sequenza). (Rif: Slide Slide 291/323 - \"Generative Pre-trained Transformer\" vs BERT che è bidirezionale/masked)"
     },
     {
@@ -2091,12 +2092,12 @@
       "question": "Secondo le slide, qual è un limite temporale previsto per i dati di alta qualità per addestrare gli LLM?",
       "options": [
         "I dati finiranno nel 2050",
-        "Secondo una stima del MIT, i dati testuali di alta qualità raggiungeranno il limite entro il 2027",
         "I dati sono infiniti",
-        "Non servono dati di alta qualità"
+        "Secondo una stima del MIT, i dati testuali di alta qualità raggiungeranno il limite entro il 2027",
+        "I dati di alta qualità potrebbero esaurirsi entro il 2027"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Secondo una stima del MIT, i dati testuali di alta qualità raggiungeranno il limite entro il 2027. (Rif: Slide Slide 337)"
     },
     {
@@ -2106,12 +2107,12 @@
       "question": "Cos'è la \"Ground Truth\" nel Machine Learning?",
       "options": [
         "La messa a terra elettrica del server",
-        "La risposta corretta nota a priori negli esempi di training (etichetta reale)",
         "L'errore del sistema",
+        "La risposta corretta nota a priori negli esempi di training (etichetta reale)",
         "La velocità della luce"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: La risposta corretta nota a priori negli esempi di training (etichetta reale). (Rif: Slide Slide 242)"
     },
     {
@@ -2121,12 +2122,12 @@
       "question": "Come si chiama il supercomputer/progetto che ha violato una chiave DES in meno di un giorno nel 2008?",
       "options": [
         "Deep Blue",
-        "COPACOBANA / RIVYERA",
         "Enigma",
+        "COPACOBANA / RIVYERA",
         "Colossus"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: COPACOBANA / RIVYERA. (Rif: Slide Slide 208)"
     },
     {
@@ -2136,12 +2137,12 @@
       "question": "Quale dominio generico (gTLD) è riservato alla lingua e cultura catalana?",
       "options": [
         ".esp",
-        ".cat",
         ".cul",
+        ".cat",
         ".bar"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: .cat. (Rif: Slide Slide 23)"
     },
     {
@@ -2166,12 +2167,12 @@
       "question": "Cos'è il VLSM (Variable Length Subnet Masking) nell'indirizzamento IPv4?",
       "options": [
         "Un tipo di cavo",
-        "L'uso di maschere di sottorete di lunghezza variabile per ottimizzare l'uso degli indirizzi",
         "Un protocollo video",
+        "L'uso di maschere di sottorete di lunghezza variabile per ottimizzare l'uso degli indirizzi",
         "Un sistema per la posta elettronica"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: L'uso di maschere di sottorete di lunghezza variabile per ottimizzare l'uso degli indirizzi. (Rif: Slide Slide 29)"
     },
     {
@@ -2226,12 +2227,12 @@
       "question": "I Root Name Server sono organizzati in una lista identificata da lettere. Quanti sono i server radice logici (da A a ...)?",
       "options": [
         "5 (A-E)",
-        "13 (A-M)",
         "26 (A-Z)",
+        "13 (A-M)",
         "100 (A-CV)"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: 13 (A-M). (Rif: Slide Slide 31-32)"
     },
     {
@@ -2243,7 +2244,7 @@
         "Sono più veloci delle reti Ethernet",
         "Hanno latenza zero",
         "Riducono i costi di cablatura e supportano la mobilità",
-        "Non hanno problemi di sicurezza"
+        "Offrono maggiore mobilità e flessibilità di installazione"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 2,
@@ -2256,12 +2257,12 @@
       "question": "Secondo le stime citate per il 2024/2025, quanti Zettabyte di dati verranno generati quest'anno?",
       "options": [
         "Circa 10",
-        "Circa 181",
         "Circa 5000",
+        "Circa 181",
         "Meno di 1"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Circa 181. (Rif: Slide Slide 85)"
     },
     {
@@ -2271,12 +2272,12 @@
       "question": "Qual è la percentuale stimata di traffico Internet legata ai video?",
       "options": [
         "Meno del 10%",
-        "Circa la metà (Oltre il 50%)",
         "Il 90%",
+        "Circa la metà (Oltre il 50%)",
         "L'1%"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Circa la metà (Oltre il 50%). (Rif: Slide Slide 89)"
     },
     {
@@ -2286,12 +2287,12 @@
       "question": "In un database relazionale, cos'è una \"Superchiave\"?",
       "options": [
         "Una chiave che apre tutti i database",
-        "Un insieme di campi tali che non esistono due record con lo stesso valore per quei campi (univocità)",
         "Una password di amministratore",
+        "Un insieme di campi tali che non esistono due record con lo stesso valore per quei campi (univocità)",
         "Un campo che accetta solo numeri"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Un insieme di campi tali che non esistono due record con lo stesso valore per quei campi (univocità). (Rif: Slide Slide 131)"
     },
     {
@@ -2301,9 +2302,9 @@
       "question": "Qual è lo svantaggio principale del modello \"Multidimensionale\" nei database?",
       "options": [
         "È troppo semplice",
-        "Non è adatto per l'analisi dei dati",
+        "Richiede una struttura dati complessa e può essere lento per query semplici",
         "Schema obbligatorio e molto rigido (difficile da gestire se distribuito)",
-        "Non usa numeri"
+        "Occupazione di memoria elevata per cubi di grandi dimensioni"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 2,
@@ -2331,12 +2332,12 @@
       "question": "Quale operazione logica permette di unire due tabelle (JOIN) basandosi su una chiave comune?",
       "options": [
         "Unione fisica dei dischi",
-        "L'unione di record memorizzati su tabelle diverse che condividono un valore nel campo di relazione",
         "La cancellazione dei duplicati",
+        "L'unione di record memorizzati su tabelle diverse che condividono un valore nel campo di relazione",
         "La somma aritmetica dei campi"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: L'unione di record memorizzati su tabelle diverse che condividono un valore nel campo di relazione. (Rif: Slide Slide 112)"
     },
     {
@@ -2361,12 +2362,12 @@
       "question": "Perché le \"API del sistema operativo\" (approccio tradizionale file) non sono ideali per gestire grandi dati condivisi?",
       "options": [
         "Sono troppo costose",
+        "richiede configurazione avanzata perno su Windows",
         "Hanno una granularità di blocco \"grossolana\" (bloccano tutto il file) invece che fine (record/riga)",
-        "Non funzionano su Windows",
         "Cancellano i file automaticamente"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Hanno una granularità di blocco \"grossolana\" (bloccano tutto il file) invece che fine (record/riga). (Rif: Slide Slide 156)"
     },
     {
@@ -2406,12 +2407,12 @@
       "question": "L'attacco \"Ciphertext-only\" è quello in cui l'attaccante possiede:",
       "options": [
         "La chiave privata",
-        "Solamente l'algoritmo di cifratura e alcuni testi cifrati",
         "Il testo in chiaro originale",
+        "Solamente l'algoritmo di cifratura e alcuni testi cifrati",
         "L'accesso fisico al server"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Solamente l'algoritmo di cifratura e alcuni testi cifrati. (Rif: Slide Slide 196)"
     },
     {
@@ -2451,12 +2452,12 @@
       "question": "Cosa si intende per \"Funzione Hash\" in crittografia (anche se citata nel contesto delle primitive)?",
       "options": [
         "Una funzione che trasforma un testo in un'immagine",
-        "Una funzione che mappa dati di lunghezza arbitraria in una stringa di lunghezza fissa (impronta digitale)",
         "Una funzione reversibile",
+        "Una funzione che mappa dati di lunghezza arbitraria in una stringa di lunghezza fissa (impronta digitale)",
         "Un database"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Una funzione che mappa dati di lunghezza arbitraria in una stringa di lunghezza fissa (impronta digitale). (Rif: Slide Slide 190 - definita come \"primitiva crittografica\", il concetto di hash è standard nel contesto sicurezza)"
     },
     {
@@ -2466,12 +2467,12 @@
       "question": "Qual è un requisito fondamentale per le due chiavi (pubblica e privata) in un sistema asimmetrico?",
       "options": [
         "Devono essere identiche",
+        "Devono essere generate da un'entità certificata",
         "Devono essere applicabili in entrambi gli ordini (cifrare con una e decifrare con l'altra, e viceversa)",
-        "Devono essere lunghe solo 4 bit",
         "Devono essere scritte in italiano"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Devono essere applicabili in entrambi gli ordini (cifrare con una e decifrare con l'altra, e viceversa). (Rif: Slide Slide 226)"
     },
     {
@@ -2481,12 +2482,12 @@
       "question": "Qual è la motivazione dominante per gli attacchi informatici secondo i grafici mostrati?",
       "options": [
         "Ideologica",
-        "Economica",
         "Divertimento",
+        "Economica",
         "Errore umano"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Economica. (Rif: Slide Slide 170)"
     },
     {
@@ -2510,13 +2511,13 @@
       "type": "theory",
       "question": "Qual è il problema della \"tokenizzazione\" con parole composte tedesche lunghe (es. Lebensversicherungs...)?",
       "options": [
-        "Non possono essere lette",
-        "Richiedono regole speciali o un dizionario enorme se non spezzate correttamente",
+        "Richiedono regole speciali o un dizionario molto grande",
         "Sono sempre tradotte in inglese",
+        "Richiedono regole speciali o un dizionario enorme se non spezzate correttamente",
         "Vengono ignorate"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 2,
       "explanation": "Risposta corretta: Richiedono regole speciali o un dizionario enorme se non spezzate correttamente. (Rif: Slide Slide 298)"
     },
     {
@@ -2541,12 +2542,12 @@
       "question": "Nel modello RNN Encoder-Decoder, come viene gestito l'input?",
       "options": [
         "Viene ignorato",
-        "Viene accumulato in un \"vettore contesto\" (che rappresenta il passato)",
+        "Viene cancellato subito",
         "Viene stampato su carta",
-        "Viene cancellato subito"
+        "Viene accumulato in un \"vettore contesto\" (che rappresenta il passato)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Viene accumulato in un \"vettore contesto\" (che rappresenta il passato). (Rif: Slide Slide 310)"
     },
     {
@@ -2556,12 +2557,12 @@
       "question": "Cosa si intende per \"Vanishing Gradient\" (o importanza decrescente) nelle RNN?",
       "options": [
         "La rete diventa trasparente",
-        "Gli elementi inseriti all'inizio della sequenza perdono influenza man mano che la sequenza si allunga",
+        "I colori svaniscono",
         "La rete smette di funzionare dopo 10 minuti",
-        "I colori svaniscono"
+        "Gli elementi inseriti all'inizio della sequenza perdono influenza man mano che la sequenza si allunga"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Gli elementi inseriti all'inizio della sequenza perdono influenza man mano che la sequenza si allunga. (Rif: Slide Slide 311)"
     },
     {
@@ -2571,12 +2572,12 @@
       "question": "Come funziona il meccanismo di \"Self-Attention\" nella generazione del testo?",
       "options": [
         "La rete guarda solo l'ultima parola",
-        "Ogni volta che si calcola la probabilità del prossimo token, il modello \"guarda\" a tutti i token precedenti già generati con pesi diversi",
+        "La rete si spegne per riposare",
         "La rete chiede all'utente cosa scrivere",
-        "La rete si spegne per riposare"
+        "Ogni volta che si calcola la probabilità del prossimo token, il modello \"guarda\" a tutti i token precedenti già generati con pesi diversi"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Ogni volta che si calcola la probabilità del prossimo token, il modello \"guarda\" a tutti i token precedenti già generati con pesi diversi. (Rif: Slide Slide 318)"
     },
     {
@@ -2586,12 +2587,12 @@
       "question": "Quale modello LLM di Meta ha dimostrato che un modello più piccolo (65B parametri) può superare modelli più grandi (es. PaLM 540B) se addestrato meglio?",
       "options": [
         "BERT",
-        "LLaMA",
+        "Watson",
         "GPT-3",
-        "Watson"
+        "LLaMA"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: LLaMA. (Rif: Slide Slide 335)"
     },
     {
@@ -2616,12 +2617,12 @@
       "question": "Qual è l'architettura base di GPT (Generative Pre-trained Transformer)?",
       "options": [
         "Encoder-only",
-        "Decoder-only (solo la parte che genera)",
+        "CNN pura",
         "Encoder-Decoder completo",
-        "CNN pura"
+        "Decoder-only (solo la parte che genera)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Decoder-only (solo la parte che genera). (Rif: Slide Slide 322)"
     },
     {
@@ -2631,12 +2632,12 @@
       "question": "Cosa significa che un algoritmo di classificazione ha uno \"scoring\" di 0 in una foglia dell'albero decisionale?",
       "options": [
         "Che la classificazione è perfetta",
-        "Che c'è massima incertezza (istanze positive e negative si bilanciano perfettamente)",
+        "Che l'albero è rotto",
         "Che non ci sono dati",
-        "Che l'albero è rotto"
+        "Che c'è massima incertezza (istanze positive e negative si bilanciano perfettamente)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che c'è massima incertezza (istanze positive e negative si bilanciano perfettamente). (Rif: Slide Slide 281)"
     },
     {
@@ -2646,12 +2647,12 @@
       "question": "Come viene definita la \"Fairness\" (equità) nell'IA?",
       "options": [
         "La capacità di trattare tutti i dati alla stessa velocità",
-        "L'assenza di bias o discriminazioni nei risultati verso gruppi specifici",
+        "La bellezza dell'interfaccia",
         "Il costo del software",
-        "La bellezza dell'interfaccia"
+        "L'assenza di bias o discriminazioni nei risultati verso gruppi specifici"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: L'assenza di bias o discriminazioni nei risultati verso gruppi specifici. (Rif: Slide Slide 254)"
     },
     {
@@ -2676,12 +2677,12 @@
       "question": "Qual è la Sensitivity (o Recall)?",
       "options": [
         "40 / 50 = 80%",
-        "40 / (40 + 0) = 100%",
+        "40 / 100 = 40%",
         "50 / 60 = 83%",
-        "40 / 100 = 40%"
+        "40 / (40 + 0) = 100%"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 40 / (40 + 0) = 100%. (Slide 268) - Calcolo:"
     },
     {
@@ -2736,12 +2737,12 @@
       "question": "Cosa rappresenta il \"Margine\" (",
       "options": [
         "Il costo in dollari dell'algoritmo",
-        "Il prodotto tra la classe reale e lo scoring; indica l'affidabilità della classificazione (valori positivi = corretta)",
+        "Il numero di errori",
         "Lo spazio vuoto intorno all'immagine",
-        "Il numero di errori"
+        "Il prodotto tra la classe reale e lo scoring; indica l'affidabilità della classificazione (valori positivi = corretta)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Il prodotto tra la classe reale e lo scoring; indica l'affidabilità della classificazione (valori positivi = corretta). (Slide 282)"
     },
     {
@@ -2751,12 +2752,12 @@
       "question": "Nel paper \"Attention is all you need\", cosa ha sostituito le reti ricorrenti (RNN)?",
       "options": [
         "Le reti convoluzionali (CNN)",
-        "Il meccanismo di Self-Attention puro",
+        "I processori analogici",
         "I database SQL",
-        "I processori analogici"
+        "Il meccanismo di Self-Attention puro"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Il meccanismo di Self-Attention puro. (Slide 319-320)"
     },
     {
@@ -2766,9 +2767,9 @@
       "question": "Qual è il principale limite dell'architettura \"Encoder-Decoder\" classica prima dei Transformer?",
       "options": [
         "L'encoder deve comprimere tutta l'informazione in un singolo vettore di dimensione fissa (collo di bottiglia)",
-        "Non può leggere l'inglese",
+        "Richiede risorse computazionali elevate",
         "Richiede troppe GPU",
-        "Non ha limiti"
+        "Richiede l'intera sequenza di input prima di generare l'output"
       ],
       "slide_ref": "4) IA.pdf",
       "correct": 0,
@@ -2781,12 +2782,12 @@
       "question": "Nel contesto dei Big Data e IA, cosa ha fatto Meta con il modello LLaMA rispetto ai competitor più grandi?",
       "options": [
         "Ha aumentato i parametri a 1 trilione",
-        "Ha dimostrato che un modello più piccolo addestrato su dati migliori e per più tempo può essere superiore",
+        "Ha reso il modello a pagamento per tutti",
         "Ha smesso di usare l'IA",
-        "Ha reso il modello a pagamento per tutti"
+        "Ha dimostrato che un modello più piccolo addestrato su dati migliori e per più tempo può essere superiore"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Ha dimostrato che un modello più piccolo addestrato su dati migliori e per più tempo può essere superiore. (Slide 335-336)"
     },
     {
@@ -2811,12 +2812,12 @@
       "question": "Quale attacco crittografico specifico ha reso vulnerabile il \"Doppio DES\" (facendolo decadere a favore del Triplo DES)?",
       "options": [
         "Brute force semplice",
-        "Meet-in-the-middle",
+        "Denial of Service",
         "Phishing",
-        "Denial of Service"
+        "Meet-in-the-middle"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Meet-in-the-middle. (Slide 212)"
     },
     {
@@ -2843,7 +2844,7 @@
         "I guidati usano un conduttore fisico (cavi, fibra), i non guidati viaggiano via etere (onde radio)",
         "I guidati hanno un autista, i non guidati sono autonomi",
         "I guidati sono più lenti",
-        "Non c'è differenza"
+        "Sono concetti complementari ma con funzioni distinte"
       ],
       "slide_ref": "3) Sicurezza.pdf",
       "correct": 0,
@@ -2856,12 +2857,12 @@
       "question": "In un indirizzo URL come https://www.example.com:443/path/file.html, cosa rappresenta il numero 443?",
       "options": [
         "Il numero di pagine",
-        "La porta del server (standard per HTTPS)",
+        "Il codice di errore",
         "La dimensione del file",
-        "Il codice di errore"
+        "La porta del server (standard per HTTPS)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: La porta del server (standard per HTTPS). (Slide 19)"
     },
     {
@@ -2871,12 +2872,12 @@
       "question": "Qual è la funzione del \"Logic Tier\" in un'architettura a 3 livelli?",
       "options": [
         "Mostrare le immagini all'utente",
-        "Eseguire l'applicazione e generare contenuti dinamici (elaborazione)",
+        "Raffreddare il server",
         "Salvare i dati su disco",
-        "Raffreddare il server"
+        "Eseguire l'applicazione e generare contenuti dinamici (elaborazione)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Eseguire l'applicazione e generare contenuti dinamici (elaborazione). (Slide 57)"
     },
     {
@@ -2901,12 +2902,12 @@
       "question": "Quale operazione relazionale riduce il numero di righe di una tabella?",
       "options": [
         "Proiezione",
-        "Selezione",
+        "Insert",
         "Rename",
-        "Insert"
+        "Selezione"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Selezione. (Slide 112 - Selezione taglia orizzontalmente, quindi rimuove righe)"
     },
     {
@@ -2918,7 +2919,7 @@
         "La ricerca è molto più efficiente (logaritmica invece che lineare)",
         "Occupa meno spazio",
         "È più facile da disegnare",
-        "Non ha vantaggi"
+        "Supporta operazioni di inserimento e cancellazione efficienti"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 0,
@@ -2931,12 +2932,12 @@
       "question": "In un diagramma E/R, un'associazione \"1 a N\" tra Autore e Libro significa:",
       "options": [
         "Un autore scrive un solo libro",
-        "Un autore può scrivere più libri, ma un libro è scritto da un solo autore (nel contesto semplificato)",
+        "Ogni libro è collegato a un solo autore, ma un autore può avere più libri",
         "Più autori scrivono più libri insieme",
-        "Nessun collegamento"
+        "Un autore può scrivere più libri, ma un libro è scritto da un solo autore (nel contesto semplificato)"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Un autore può scrivere più libri, ma un libro è scritto da un solo autore (nel contesto semplificato). (Slide 128)"
     },
     {
@@ -2976,12 +2977,12 @@
       "question": "Nel CSS, cosa significa il termine \"Cascading\" (a cascata)?",
       "options": [
         "Che il codice scende come una cascata d'acqua",
-        "Che gli stili si combinano seguendo una priorità e una gerarchia di regole",
+        "Che il colore sfuma dall'alto verso il basso",
         "Che il sito è molto veloce",
-        "Che il colore sfuma dall'alto verso il basso"
+        "Che gli stili si combinano seguendo una priorità e una gerarchia di regole"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che gli stili si combinano seguendo una priorità e una gerarchia di regole. (Slide 9-10)"
     },
     {
@@ -3021,12 +3022,12 @@
       "question": "Cosa indica il dominio di primo livello .gov?",
       "options": [
         "Siti governativi generici",
-        "Riservato al Governo degli Stati Uniti",
+        "Organizzazioni no-profit",
         "Siti di governatorati locali",
-        "Organizzazioni no-profit"
+        "Riservato al Governo degli Stati Uniti"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Riservato al Governo degli Stati Uniti. (Slide 22)"
     },
     {
@@ -3081,12 +3082,12 @@
       "question": "Qual è il numero totale teorico di porte TCP/UDP disponibili (poiché il campo è a 16 bit)?",
       "options": [
         "1024",
-        "65.536",
+        "256",
         "1 milione",
-        "256"
+        "65.536"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 65.536. (Slide 19 - implicitamente"
     },
     {
@@ -3096,12 +3097,12 @@
       "question": "Nel Cloud Computing, cosa significa \"Scalabilità elastica\"?",
       "options": [
         "Che i cavi di rete sono fatti di gomma",
-        "Che le risorse (CPU, RAM) si adattano automaticamente aumentando o diminuendo in base al carico di lavoro",
+        "Che i server sono fisicamente flessibili",
         "Che il prezzo è fisso",
-        "Che i server sono fisicamente flessibili"
+        "Che le risorse (CPU, RAM) si adattano automaticamente aumentando o diminuendo in base al carico di lavoro"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che le risorse (CPU, RAM) si adattano automaticamente aumentando o diminuendo in base al carico di lavoro. (Slide 62, 64)"
     },
     {
@@ -3126,12 +3127,12 @@
       "question": "Cosa fa un Router?",
       "options": [
         "Collega dispositivi all'interno di una singola stanza",
-        "Instrada i pacchetti di dati interconnettendo reti diverse (es. LAN e Internet)",
+        "Serve le pagine web",
         "Protegge dai virus",
-        "Serve le pagine web"
+        "Instrada i pacchetti di dati interconnettendo reti diverse (es. LAN e Internet)"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Instrada i pacchetti di dati interconnettendo reti diverse (es. LAN e Internet). (Slide 77)"
     },
     {
@@ -3143,7 +3144,7 @@
         "Lo switch opera nella rete locale (LAN), il router collega reti diverse (WAN/Internet)",
         "Lo switch è wireless, il router è cablato",
         "Sono la stessa cosa",
-        "Lo switch serve solo per spegnere la rete"
+        "Lo switch opera a livello di data link, il router a livello di rete"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 0,
@@ -3156,12 +3157,12 @@
       "question": "In un indirizzo IP come 192.168.1.1, a cosa serve la Subnet Mask?",
       "options": [
         "A nascondere l'indirizzo IP",
-        "A distinguere la parte di rete (Network ID) dalla parte host (Host ID)",
+        "A tradurre il nome in numero",
         "A cifrare la connessione",
-        "A tradurre il nome in numero"
+        "A distinguere la parte di rete (Network ID) dalla parte host (Host ID)"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: A distinguere la parte di rete (Network ID) dalla parte host (Host ID). (Slide 26)"
     },
     {
@@ -3186,12 +3187,12 @@
       "question": "Perché il tipo di dato NULL è diverso da \"Zero\" o \"Stringa vuota\"?",
       "options": [
         "Perché vale meno",
-        "Perché indica l'assenza di informazione, dato sconosciuto o attributo non applicabile",
+        "Perché occupa più memoria",
         "Perché è scritto in maiuscolo",
-        "Perché occupa più memoria"
+        "Perché indica l'assenza di informazione, dato sconosciuto o attributo non applicabile"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Perché indica l'assenza di informazione, dato sconosciuto o attributo non applicabile. (Slide 122)"
     },
     {
@@ -3201,12 +3202,12 @@
       "question": "In un diagramma E/R, se un impiegato può lavorare in UN solo dipartimento, e un dipartimento ha MOLTI impiegati, che relazione è?",
       "options": [
         "1:1",
-        "1:N (Uno a Molti)",
+        "Nessuna relazione",
         "N:M (Molti a Molti)",
-        "Nessuna relazione"
+        "1:N (Uno a Molti)"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 1:N (Uno a Molti). (Slide 128)"
     },
     {
@@ -3231,12 +3232,12 @@
       "question": "I database NoSQL come MongoDB sono spesso definiti:",
       "options": [
         "Relazionali",
-        "Document-Oriented",
+        "Batch-Oriented",
         "Table-Oriented",
-        "Batch-Oriented"
+        "Document-Oriented"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Document-Oriented. (Slide 146)"
     },
     {
@@ -3246,12 +3247,12 @@
       "question": "Cosa significa che i dati in un Data Warehouse sono \"Storici\"?",
       "options": [
         "Che sono vecchi e inutili",
-        "Che mantengono la cronologia dei valori nel tempo, a differenza dei DB operativi che tengono solo il valore corrente",
+        "Che sono scritti su carta",
         "Che parlano di storia",
-        "Che sono scritti su carta"
+        "Che mantengono la cronologia dei valori nel tempo, a differenza dei DB operativi che tengono solo il valore corrente"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che mantengono la cronologia dei valori nel tempo, a differenza dei DB operativi che tengono solo il valore corrente. (Slide 150)"
     },
     {
@@ -3261,12 +3262,12 @@
       "question": "Qual è l'unità di misura che segue il Terabyte?",
       "options": [
         "Gigabyte",
-        "Petabyte",
+        "Kilobyte",
         "Megabyte",
-        "Kilobyte"
+        "Petabyte"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Petabyte. (Slide 83, 85 - KB, MB, GB, TB, PB, EB, ZB...)"
     },
     {
@@ -3276,12 +3277,12 @@
       "question": "Qual è una delle \"5 V\" dei Big Data che si riferisce al fatto che i dati arrivano in flussi continui?",
       "options": [
         "Volume",
-        "Velocità (Velocity)",
+        "Veracità",
         "Valore",
-        "Veracità"
+        "Velocità (Velocity)"
       ],
       "slide_ref": "2) Database.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Velocità (Velocity). (Slide 96 - Velocità di arrivo dei flussi)"
     },
     {
@@ -3321,12 +3322,12 @@
       "question": "Cosa si intende per attacco \"DoS\" (Denial of Service)?",
       "options": [
         "Indovinare la password",
-        "Rendere un servizio o una risorsa indisponibile agli utenti legittimi (es. sovraccaricando il server)",
+        "Installare un virus",
         "Rubare i dati della carta di credito",
-        "Installare un virus"
+        "Rendere un servizio o una risorsa indisponibile agli utenti legittimi (es. sovraccaricando il server)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Rendere un servizio o una risorsa indisponibile agli utenti legittimi (es. sovraccaricando il server). (Slide 184)"
     },
     {
@@ -3351,12 +3352,12 @@
       "question": "Perché la crittografia a chiave pubblica è più lenta di quella simmetrica?",
       "options": [
         "Perché usa chiavi più corte",
-        "Perché si basa su operazioni matematiche complesse (es. esponenziazione modulare su grandi numeri)",
+        "Perché richiede internet",
         "Perché è vecchia",
-        "Perché richiede internet"
+        "Perché si basa su operazioni matematiche complesse (es. esponenziazione modulare su grandi numeri)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Perché si basa su operazioni matematiche complesse (es. esponenziazione modulare su grandi numeri). (Slide 221 - computazionalmente più onerosa)"
     },
     {
@@ -3366,12 +3367,12 @@
       "question": "Qual è la funzione di un KDC (Key Distribution Center) nella crittografia simmetrica?",
       "options": [
         "Generare numeri casuali",
-        "Risolvere il problema della distribuzione sicura delle chiavi segrete tra le parti",
+        "Archiviare le email",
         "Controllare i virus",
-        "Archiviare le email"
+        "Risolvere il problema della distribuzione sicura delle chiavi segrete tra le parti"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Risolvere il problema della distribuzione sicura delle chiavi segrete tra le parti. (Slide 219)"
     },
     {
@@ -3396,12 +3397,12 @@
       "question": "Quale standard ha sostituito ufficialmente il DES nel 2001?",
       "options": [
         "RSA",
-        "AES (Advanced Encryption Standard)",
+        "SHA-1",
         "MD5",
-        "SHA-1"
+        "AES (Advanced Encryption Standard)"
       ],
       "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: AES (Advanced Encryption Standard). (Slide 207-208, 216)"
     },
     {
@@ -3411,12 +3412,12 @@
       "question": "In un albero di decisione, cosa rappresenta una \"foglia\"?",
       "options": [
         "Una domanda",
-        "Una decisione finale o una classe assegnata",
+        "Un errore",
         "La radice dell'albero",
-        "Un errore"
+        "Una decisione finale o una classe assegnata"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Una decisione finale o una classe assegnata. (Slide 252, 279)"
     },
     {
@@ -3426,12 +3427,12 @@
       "question": "Se un classificatore ha una Sensitivity (Recall) bassa, cosa significa?",
       "options": [
         "Che genera molti falsi allarmi",
-        "Che non riesce a individuare molti dei casi positivi reali (molti Falsi Negativi)",
+        "Che è molto veloce",
         "Che è molto preciso",
-        "Che è molto veloce"
+        "Che non riesce a individuare molti dei casi positivi reali (molti Falsi Negativi)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che non riesce a individuare molti dei casi positivi reali (molti Falsi Negativi). (Slide 268, 271)"
     },
     {
@@ -3456,12 +3457,12 @@
       "question": "Cosa dimostrò il programma \"Deep Blue\" di IBM?",
       "options": [
         "Che l'IA poteva comporre musica",
-        "Che un computer poteva battere il campione mondiale di scacchi (Kasparov) usando forza bruta e euristiche",
+        "Che l'IA poteva parlare",
         "Che l'IA poteva guidare l'auto",
-        "Che l'IA poteva parlare"
+        "Che un computer poteva battere il campione mondiale di scacchi (Kasparov) usando forza bruta e euristiche"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Che un computer poteva battere il campione mondiale di scacchi (Kasparov) usando forza bruta e euristiche. (Slide 232 - Immagine Deep Blue)"
     },
     {
@@ -3471,12 +3472,12 @@
       "question": "Qual è il ruolo dei \"Dati di Training\" nel Machine Learning supervisionato?",
       "options": [
         "Servono per testare il sistema alla fine",
-        "Sono gli esempi (input + output corretto) usati per addestrare il modello a generalizzare",
+        "Servono ottimizzato principalmente per la grafica",
         "Vengono buttati via",
-        "Servono solo per la grafica"
+        "Sono gli esempi (input + output corretto) usati per addestrare il modello a generalizzare"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Sono gli esempi (input + output corretto) usati per addestrare il modello a generalizzare. (Slide 258)"
     },
     {
@@ -3486,12 +3487,12 @@
       "question": "Nel riconoscimento delle immagini, quale tipo di rete neurale è lo standard?",
       "options": [
         "RNN",
-        "CNN (Convolutional Neural Network)",
+        "Perceptron semplice",
         "Transformer",
-        "Perceptron semplice"
+        "CNN (Convolutional Neural Network)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: CNN (Convolutional Neural Network). (Slide 308)"
     },
     {
@@ -3501,12 +3502,12 @@
       "question": "Qual è il problema del \"Bias\" nei dati di riconoscimento facciale?",
       "options": [
         "Le immagini sono troppo grandi",
-        "Se il dataset contiene poche facce di certe etnie/generi, il modello sbaglierà più spesso su quelle categorie (discriminazione)",
+        "Le foto sono in bianco e nero",
         "Il computer si surriscalda",
-        "Le foto sono in bianco e nero"
+        "Se il dataset contiene poche facce di certe etnie/generi, il modello sbaglierà più spesso su quelle categorie (discriminazione)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Se il dataset contiene poche facce di certe etnie/generi, il modello sbaglierà più spesso su quelle categorie (discriminazione). (Slide 254)"
     },
     {
@@ -3531,12 +3532,12 @@
       "question": "Qual è la funzione degli \"Embeddings\" come Word2Vec?",
       "options": [
         "Tradurre le parole in numeri casuali",
-        "Mappare parole con significati simili in vettori vicini nello spazio geometrico",
+        "Mettere le parole in ordine alfabetico",
         "Cancellare le parole inutili",
-        "Mettere le parole in ordine alfabetico"
+        "Mappare parole con significati simili in vettori vicini nello spazio geometrico"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Mappare parole con significati simili in vettori vicini nello spazio geometrico. (Slide 304-305)"
     },
     {
@@ -3546,12 +3547,12 @@
       "question": "Perché le RNN (Recurrent Neural Networks) elaborano l'input sequenzialmente?",
       "options": [
         "Per risparmiare memoria",
-        "Per tenere conto dell'ordine delle parole e del contesto temporale",
+        "Per essere più lente",
         "Perché non possono fare altro",
-        "Per essere più lente"
+        "Per tenere conto dell'ordine delle parole e del contesto temporale"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Per tenere conto dell'ordine delle parole e del contesto temporale. (Slide 309)"
     },
     {
@@ -3560,13 +3561,13 @@
       "type": "theory",
       "question": "Qual è il limite del meccanismo di \"Attention\" classico (costo quadratico)?",
       "options": [
-        "Non funziona con testi brevi",
-        "Diventa computazionalmente proibitivo se la sequenza di input è molto lunga (ogni parola guarda tutte le altre)",
+        "richiede configurazione avanzata per con testi brevi",
+        "Richiede memoria quadratica rispetto alla lunghezza della sequenza",
         "Costa troppi soldi",
-        "Non supporta i numeri"
+        "Diventa computazionalmente proibitivo se la sequenza di input è molto lunga (ogni parola guarda tutte le altre)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Diventa computazionalmente proibitivo se la sequenza di input è molto lunga (ogni parola guarda tutte le altre). (Slide 330)"
     },
     {
@@ -3576,12 +3577,12 @@
       "question": "Cosa ha reso GPT-3 diverso dai suoi predecessori?",
       "options": [
         "Un'architettura completamente diversa",
-        "L'enorme numero di parametri (175 miliardi) e la quantità di dati di addestramento",
+        "L'essere open source",
         "L'uso di immagini",
-        "L'essere open source"
+        "L'enorme numero di parametri (175 miliardi) e la quantità di dati di addestramento"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: L'enorme numero di parametri (175 miliardi) e la quantità di dati di addestramento. (Slide 327)"
     },
     {
@@ -3591,12 +3592,12 @@
       "question": "Cosa significa \"Fine-tuning\" di un modello LLM?",
       "options": [
         "Creare il modello da zero",
-        "Prendere un modello già pre-addestrato e allenarlo ulteriormente su un dataset specifico per un compito particolare",
+        "Cambiare la lingua del computer",
         "Aggiustare la ventola del server",
-        "Cambiare la lingua del computer"
+        "Prendere un modello già pre-addestrato e allenarlo ulteriormente su un dataset specifico per un compito particolare"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Prendere un modello già pre-addestrato e allenarlo ulteriormente su un dataset specifico per un compito particolare. (Slide 329 - citato per BERT, valido per LLM)"
     },
     {
@@ -3606,12 +3607,12 @@
       "question": "Qual è il rischio dell'\"Allucinazione\" negli LLM?",
       "options": [
         "Il modello vede fantasmi",
-        "Il modello genera informazioni false o inventate presentandole come fatti certi",
+        "Il modello diventa senziente",
         "Il modello si blocca",
-        "Il modello diventa senziente"
+        "Il modello genera informazioni false o inventate presentandole come fatti certi"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Il modello genera informazioni false o inventate presentandole come fatti certi. (Concetto implicito nella \"Veracità\" e limiti LLM)"
     },
     {
@@ -3620,13 +3621,13 @@
       "type": "theory",
       "question": "Perché GPT-2 non fu rilasciato subito da OpenAI?",
       "options": [
-        "Non funzionava",
-        "Per timori legati al possibile uso dannoso (generazione di fake news/spam credibile)",
+        "richiede configurazione avanzata perva",
+        "Hanno perso il codice",
         "Volevano farsi pagare",
-        "Hanno perso il codice"
+        "Per timori legati al possibile uso dannoso (generazione di fake news/spam credibile)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Per timori legati al possibile uso dannoso (generazione di fake news/spam credibile). (Slide 326)"
     },
     {
@@ -3666,12 +3667,12 @@
       "question": "In che modo LLaMA ha ottimizzato le prestazioni rispetto ai modelli giganti?",
       "options": [
         "Usando più elettricità",
-        "Addestrando un modello più piccolo su molti più dati (token) di alta qualità",
+        "Eliminando i livelli nascosti",
         "Usando computer quantistici",
-        "Eliminando i livelli nascosti"
+        "Addestrando un modello più piccolo su molti più dati (token) di alta qualità"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Addestrando un modello più piccolo su molti più dati (token) di alta qualità. (Slide 336)"
     },
     {
@@ -3681,12 +3682,12 @@
       "question": "Cosa è la \"Temperature\" bassa (es. 0.2) in un prompt per LLM?",
       "options": [
         "Rende l'output molto creativo e casuale",
-        "Rende l'output deterministico, focalizzato e ripetibile",
+        "Cancella la memoria",
         "Raffredda la CPU",
-        "Cancella la memoria"
+        "Rende l'output deterministico, focalizzato e ripetibile"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Rende l'output deterministico, focalizzato e ripetibile. (Concetto tecnico standard LLM associato a queste slide)"
     },
     {
@@ -3696,12 +3697,12 @@
       "question": "Qual è l'unità fondamentale di testo che un LLM elabora?",
       "options": [
         "La lettera",
-        "Il Token (che può essere una parola, parte di parola o carattere)",
+        "Il paragrafo",
         "La frase intera",
-        "Il paragrafo"
+        "Il Token (che può essere una parola, parte di parola o carattere)"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: Il Token (che può essere una parola, parte di parola o carattere). (Slide 298)"
     },
     {
@@ -3711,12 +3712,12 @@
       "question": "Scenario: Screening Aeroportuale\nUn sistema di sicurezza analizza 200 valigie.\nPositivi Reali (Valigie pericolose): 20\nNegativi Reali (Valigie sicure): 180\nIl sistema classifica correttamente 15 valigie pericolose (TP=15) ma ne lascia passare 5 (FN=5).\nClassifica correttamente 160 valigie sicure (TN=160) ma ne ferma erroneamente 20 (FP=20).\nCalcola la Sensitivity (Recall).",
       "options": [
         "15/180 = 8.3%",
-        "15/20 = 75%",
+        "(15+160)/200 = 87.5%",
         "160/180 = 88.8%",
-        "(15+160)/200 = 87.5%"
+        "15/20 = 75%"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "1. Risposta: B (75%)\nFormula:\nT\nP\n/\n(\nT\nP\n+\nF\nN\n)\nTP/(TP+FN)\nCalcolo: Hai trovato 15 valigie pericolose su un totale di 20 valigie pericolose esistenti.\n15\n/\n20\n=\n0.75\n15/20=0.75\n."
     },
     {
@@ -3786,12 +3787,12 @@
       "question": "Scenario: Calcolo F-Measure\nUn classificatore ha ottenuto:\nPrecision: 50% (0.5)\nRecall: 50% (0.5)\nQual è il valore di F1 (F-Measure bilanciata)?",
       "options": [
         "0.25",
-        "0.5",
+        "0.75",
         "1.0",
-        "0.75"
+        "0.5"
       ],
       "slide_ref": "4) IA.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "6. Risposta: B (0.5)\nFormula:\n2\n⋅\n(\n0.5\n⋅\n0.5\n)\n/\n(\n0.5\n+\n0.5\n)\n2⋅(0.5⋅0.5)/(0.5+0.5)\nCalcolo:\n2\n⋅\n(\n0.25\n)\n/\n1\n=\n0.5\n2⋅(0.25)/1=0.5\n.\nNota: Se Precision e Recall sono identiche, anche F1 sarà identico a loro."
     },
     {
@@ -3846,12 +3847,12 @@
       "question": "Secondo l'esempio storico citato nelle slide, quale era il costo orario di una \"slice\" (istanza) di Amazon EC2?",
       "options": [
         "1 dollaro",
-        "10 centesimi",
+        "Gratuito",
         "50 centesimi",
-        "Gratuito"
+        "10 centesimi"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 3. B (10 centesimi) - Slide 67."
     },
     {
@@ -3861,12 +3862,12 @@
       "question": "Quale dei seguenti è un esempio di server web menzionato esplicitamente nelle slide (oltre ad Apache)?",
       "options": [
         "Nginx",
-        "Microsoft IIS (Internet Information Services)",
+        "Caddy",
         "LiteSpeed",
-        "Caddy"
+        "Microsoft IIS (Internet Information Services)"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 4. B (Microsoft IIS) - Slide 14."
     },
     {
@@ -3876,12 +3877,12 @@
       "question": "Cosa si intende per \"Shared Registrar System (SRS)\"?",
       "options": [
         "Un sistema per condividere le password",
-        "Un registro condiviso dove confluiscono i nomi di dominio assegnati dai vari registrar (intermediari)",
+        "Un protocollo di posta elettronica",
         "Un social network per sviluppatori",
-        "Un protocollo di posta elettronica"
+        "Un registro condiviso dove confluiscono i nomi di dominio assegnati dai vari registrar (intermediari)"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 5. B - Slide 24."
     },
     {
@@ -3893,7 +3894,7 @@
         "Il Block Cipher processa i dati in blocchi di dimensione fissa, lo Stream Cipher li processa un bit/byte alla volta",
         "Il Block Cipher usa una chiave, lo Stream Cipher no",
         "Sono la stessa cosa",
-        "Lo Stream Cipher è usato solo per i video in streaming"
+        "Lo Stream Cipher cifra i dati in modo continuo, il Block Cipher a blocchi"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 0,
@@ -3906,12 +3907,12 @@
       "question": "Qual è lo scopo di organizzare i protocolli di rete in una \"pila protocollare\" (strati)?",
       "options": [
         "Per renderli più difficili da capire",
-        "Per permettere di modificare un protocollo (strato) senza dover cambiare gli altri",
+        "È solo una convenzione grafica",
         "Per aumentare il costo dell'hardware",
-        "È solo una convenzione grafica"
+        "Per permettere di modificare un protocollo (strato) senza dover cambiare gli altri"
       ],
       "slide_ref": "1) Web.pdf",
-      "correct": 1,
+      "correct": 3,
       "explanation": "Risposta corretta: 7. B - Slide 75."
     },
     {
@@ -3998,7 +3999,7 @@
         "Occupa troppo spazio",
         "Le join tra tabelle distribuite su molti server diventano estremamente difficili e lente da gestire",
         "Non è abbastanza semplice",
-        "Non supporta il testo"
+        "richiede configurazione avanzata per il testo"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 1,
@@ -4193,7 +4194,7 @@
         "Un testo scritto in codice binario",
         "Un sistema di organizzazione delle informazioni non lineare, collegato tramite link",
         "Un testo che contiene solo immagini",
-        "Un database relazionale"
+        "Un sistema di documenti interconnessi tramite link"
       ],
       "slide_ref": "1) Web.pdf",
       "correct": 1,
@@ -4447,7 +4448,7 @@
       "options": [
         "L'Hosting è per siti statici, l'Housing per dinamici",
         "L'Hosting fornisce spazio su un server del provider; l'Housing ospita il server fisico del cliente",
-        "Non c'è differenza",
+        "Sono concetti complementari ma con funzioni distinte",
         "L'Housing è gratuito"
       ],
       "slide_ref": "1) Web.pdf",
@@ -4610,7 +4611,7 @@
       "type": "theory",
       "question": "Nei Big Data, cosa indica la \"Velocità\"?",
       "options": [
-        "La velocità della CPU",
+        "La frequenza di aggiornamento dei dati in tempo reale",
         "Il flusso rapido di arrivo e processamento dei dati",
         "La velocità di lettura dell'hard disk",
         "La larghezza di banda"
@@ -4718,7 +4719,7 @@
         "Nella tabella A (lato 1)",
         "Nella tabella B (lato N)",
         "In una terza tabella",
-        "Non serve"
+        "Nella tabella B, come riferimento alla tabella A"
       ],
       "slide_ref": "2) Database.pdf",
       "correct": 1,
@@ -5003,7 +5004,7 @@
         "Sono sinonimi",
         "La Minaccia è un potenziale pericolo esterno; la Vulnerabilità è una debolezza interna del sistema",
         "La Vulnerabilità è l'attaccante",
-        "La Minaccia è il software antivirus"
+        "La Minaccia è un evento potenzialmente dannoso, la Vulnerabilità è una debolezza del sistema"
       ],
       "slide_ref": "3) Sicurezza.pdf",
       "correct": 1,
@@ -5158,21 +5159,6 @@
       "slide_ref": "3) Sicurezza.pdf",
       "correct": 1,
       "explanation": "Risposta corretta: One-way (non invertibili) e resistenti alle collisioni. (Slide 227 - concetto one-way)"
-    },
-    {
-      "id": "0547e459-24d8-495c-827b-d6e8c46ad914",
-      "topic": "security",
-      "type": "theory",
-      "question": "Cosa si intende per \"Superficie d'attacco\"?",
-      "options": [
-        "L'area dello schermo",
-        "L'insieme di tutti i punti vulnerabili di un sistema esposti ad attacchi",
-        "Il pavimento della sala server",
-        "La tastiera"
-      ],
-      "slide_ref": "3) Sicurezza.pdf",
-      "correct": 1,
-      "explanation": "Risposta corretta: L'insieme di tutti i punti vulnerabili di un sistema esposti ad attacchi. (Slide 201)"
     },
     {
       "id": "cd30e365-73e5-42d6-9e33-2b9ea45ece75",
@@ -5557,7 +5543,7 @@
       "options": [
         "Che servono modelli sempre più grandi",
         "Che modelli più piccoli, addestrati meglio e su più dati, possono competere con modelli giganti",
-        "Che l'IA non funziona",
+        "Che l'IA richiede configurazione avanzata per",
         "Che Meta non sa fare IA"
       ],
       "slide_ref": "4) IA.pdf",
